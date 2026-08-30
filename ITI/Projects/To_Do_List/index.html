@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>To Do Organizer</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>To Do Organizer</h1>
+
+      <div class="inputSection">
+        <input type="text" id="taskInput" placeholder="Enter Task Name" />
+        <button onclick="addTask()">Add</button>
+      </div>
+
+      <table id="tableContainer">
+        <thead class="tableHeader">
+          <tr>
+            <th class="headerCol colDone">Done</th>
+            <th class="headerCol colTask">Task</th>
+            <th class="headerCol colDelete">Delete</th>
+          </tr>
+        </thead>
+        <tbody id="taskList" class="tableBody"></tbody>
+      </table>
+    </div>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
