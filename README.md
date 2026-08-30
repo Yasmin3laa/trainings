@@ -1,14 +1,14 @@
 # 🎓 Training & Learning
 
-This repository documents my technical training journey, including coursework, practical assignments, labs, projects, and hands-on learning.
+This repository documents my technical learning journey through training programs, coursework, practical assignments, labs, projects, and self-study.
 
-## 📚 Trainings
+## 📚 Training Programs
 
-### ITI
+### ITI — Web Development using Python & Generative AI
 
-**Program:** Web Development using Python & Generative AI
+A practical training program focused on web development and Python-based technologies.
 
-Topics covered:
+**Topics:**
 
 * HTML
 * CSS
@@ -16,20 +16,23 @@ Topics covered:
 * Python
 * PostgreSQL
 * Django
+* Generative AI
 
-Projects:
+**Projects:**
 
 * Fruits Shop
 * To Do List
 * Students Management System
 
+📂 [View ITI Training](./ITI)
+
 ---
 
-### NTI
+### NTI — Full-Stack Development
 
-**Program:** Full Stack
+Training focused on the fundamentals of full-stack web development.
 
-Topics covered:
+**Topics:**
 
 * HTML
 * CSS
@@ -37,14 +40,57 @@ Topics covered:
 
 ---
 
-### Other Learning
+## 🧠 Problem Solving
 
-* freeCodeCamp
-* CS50
-* Other technical courses
+Programming exercises and problem-solving practice completed throughout my learning journey.
+
+**Focus areas:**
+
+* Programming Fundamentals
+* Data Structures
+* Algorithms
+* Problem Solving
+* Python
+* JavaScript
+
+---
+
+## 📖 Other Learning
+
+Additional learning through online courses and computer science resources.
+
+* **freeCodeCamp** — Programming and web development
+* **CS50** — Computer Science fundamentals
+* Other technical courses and self-study
+
+---
+
+## 📂 Repository Structure
+
+```text
+trainings/
+│
+├── ITI/
+│   ├── 01_Python/
+│   ├── 02_HTML_CSS/
+│   ├── 03_JavaScript/
+│   ├── 04_PostgreSQL/
+│   └── 05_Django/
+│   └── Projects/
+│
+└── README.md
+```
+
+> The repository structure may evolve as I continue adding new training materials and projects.
 
 ---
 
 ## 🚀 Purpose
 
-I use this repository to document my learning journey and keep my practical training work organized.
+I use this repository to organize my technical training, practice, and learning progress in one place.
+
+It serves as a record of my development journey and the practical work I complete while building my skills as a Full-Stack Web Developer.
+
+---
+
+⭐ **Thanks for visiting!**
