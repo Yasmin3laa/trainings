@@ -53,9 +53,22 @@ Topics include:
 
 ## 🛠️ Practical Work
 
-This section contains practical exercises, assignments, and Jupyter Notebook-based practice.
+The Python module includes practical exercises and assignments covering the fundamentals of Python programming.
 
-📂 [View Assignments](./assignments)
+### Assignments
+
+* `01_Basics.ipynb` — Python fundamentals, variables, data types, input/output, operators, and type conversion.
+* `02_Strings_Lists_Sets_Tuples.ipynb` — Strings, lists, sets, tuples, and practical data manipulation exercises.
+* `03_Control_Flow_Functions_Dictionaries.ipynb` — Control flow, functions, dictionaries, and problem-solving exercises.
+* `04_Modules_File_IO_Exception_Handling/` — Modules, file handling, exception handling, and input validation.
+
+### Additional Practice
+
+* Problem-solving exercises
+* Programming tasks
+* Practical Python exercises
+* Jupyter Notebook assignments
+
 
 ## 📓 Learning Materials
 
