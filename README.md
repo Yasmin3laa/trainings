@@ -75,8 +75,12 @@ trainings/
 │   ├── 02_HTML_CSS/
 │   ├── 03_JavaScript/
 │   ├── 04_PostgreSQL/
-│   └── 05_Django/
+│   ├── 05_Django/
+│   │
 │   └── Projects/
+│       ├── Fruits_Shop/
+│       ├── To_Do_List/
+│       └── Students_Management_System/
 │
 └── README.md
 ```
