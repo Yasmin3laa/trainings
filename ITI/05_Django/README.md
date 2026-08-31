@@ -1,50 +1,50 @@
 # Django
 
-A collection of Django training exercises and projects focused on building web applications using Python and the Django framework.
+A collection of Django training notes and practical exercises completed during my ITI training.
 
 ## Topics Covered
 
-* Django project structure
-* Django applications
-* URL routing
+* Python Virtual Environments
+* Django Installation
+* Django Project Structure
+* Creating Django Projects
+* Creating Django Applications
+* Development Server
+* URL Routing
 * Views
 * Templates
-* Template inheritance
-* Static files
-* HTML forms
-* Form handling
 * Models
 * Django ORM
-* Database integration
+* Database Integration
 * Migrations
-* CRUD operations
-* Django Admin
-* Authentication and authorization
-* Sessions
-* Middleware
-* REST APIs
-* Django REST Framework
+* CRUD Operations
 
 ## Concepts Practiced
 
-* MVT (Model–View–Template) architecture
-* URL patterns
-* Function-Based Views
-* Class-Based Views
-* Models and relationships
+* Django MVT Architecture
+* Project vs Application
+* URL Patterns
+* Views
+* Templates
+* Models
 * QuerySets
-* Database migrations
-* Template tags and filters
-* Form validation
-* CRUD functionality
-* Authentication
-* API development
+* Database Migrations
+* CRUD Functionality
+* Virtual Environments
+* Django Development Workflow
+
+## Training Materials
+
+### Notes
+
+* [Django Fundamentals](./notes.md)
+
+The notes cover the basic Django workflow, including environment setup, project creation, application management, running the development server, and CRUD operations.
 
 ## Technologies
 
 * Python
 * Django
-* Django ORM
 * PostgreSQL
 * HTML5
 * CSS3
@@ -52,4 +52,4 @@ A collection of Django training exercises and projects focused on building web a
 
 ## Purpose
 
-This section is part of my backend and full-stack web development training. It focuses on building dynamic web applications with Django and developing practical skills in backend development, database integration, and API development.
+This training is part of my backend and full-stack web development journey. It focuses on learning Django fundamentals and building a strong foundation for developing dynamic web applications with Python.
