@@ -4,42 +4,47 @@ A collection of Django training notes and practical exercises completed during m
 
 ## Topics Covered
 
-* Python Virtual Environments
-* Django Installation
+* Django Installation and Setup
+* Virtual Environments
 * Django Project Structure
-* Creating Django Projects
-* Creating Django Applications
-* Development Server
+* Django Applications
 * URL Routing
 * Views
 * Templates
 * Models
-* Django ORM
 * Database Integration
 * Migrations
+* Django ORM
 * CRUD Operations
+* Django Shell
+* Django Admin
+* Superusers
+* Model Registration
+* Model `__str__()` Method
 
 ## Concepts Practiced
 
 * Django MVT Architecture
 * Project vs Application
 * URL Patterns
-* Views
+* Function-Based Views
 * Templates
 * Models
 * QuerySets
 * Database Migrations
-* CRUD Functionality
-* Virtual Environments
-* Django Development Workflow
+* ORM Operations
+* Creating, Updating, and Deleting Records
+* Django Admin Interface
+* Model Registration
+* Virtual Environment Management
 
 ## Training Materials
 
-### Notes
+### Django Fundamentals
 
-* [Django Fundamentals](./notes.md)
+* [Django Fundamentals Notes](./notes.md)
 
-The notes cover the basic Django workflow, including environment setup, project creation, application management, running the development server, and CRUD operations.
+The notes cover the basic Django development workflow, from creating a virtual environment and setting up a project to working with models, the Django ORM, CRUD operations, and the Django Admin interface.
 
 ## Technologies
 
@@ -52,4 +57,4 @@ The notes cover the basic Django workflow, including environment setup, project 
 
 ## Purpose
 
-This training is part of my backend and full-stack web development journey. It focuses on learning Django fundamentals and building a strong foundation for developing dynamic web applications with Python.
+This training is part of my backend and full-stack web development journey. It focuses on building a strong foundation in Django and understanding the main concepts and tools used to develop dynamic web applications with Python.
