@@ -1,18 +1,22 @@
-# ✅ To-Do List
+# 📝 To-Do List
 
-A simple and interactive **To-Do List application** built using HTML5, CSS3, and JavaScript.
+An interactive To-Do List application built with **HTML5, CSS3, and JavaScript** as part of my Web Development training at **ITI**.
 
-This project was created as part of my **Web Development training at ITI** to practice JavaScript fundamentals and DOM manipulation.
+## 📌 About the Project
+
+To-Do List is a simple task management application that allows users to add, complete, and delete tasks through an interactive user interface.
+
+The project focuses on practicing **JavaScript DOM manipulation, event handling, arrays, objects, and dynamic HTML elements**.
 
 ## ✨ Features
 
 * Add new tasks
+* Display tasks dynamically
 * Mark tasks as completed
 * Delete tasks
-* Display tasks dynamically
 * Interactive user interface
 * Dynamic DOM manipulation
-* Event-driven interactions
+* Task state management
 
 ## 🛠️ Technologies Used
 
@@ -33,34 +37,38 @@ This project was created as part of my **Web Development training at ITI** to pr
 * `createElement()`
 * `appendChild()`
 * `classList`
-* Dynamic rendering
-* Event-driven programming
+* Dynamic element creation
+* Local data handling
+
+## 📸 Screenshots
+
+### Main Interface
+
+![To-Do List](screenshots/to-do-list1.png)
+
+### Tasks
+
+![To-Do List Tasks](screenshots/to-do-list2.png)
 
 ## 📁 Project Structure
 
 ```text
 To_Do_List/
-│
 ├── screenshots/
-│
 ├── index.html
 ├── style.css
 ├── script.js
 └── README.md
 ```
 
-## 🎯 Purpose
+## 🎯 Learning Goals
 
-This project was created as part of my JavaScript practice to strengthen my understanding of:
+* Practice JavaScript fundamentals
+* Understand DOM manipulation
+* Work with browser events
+* Build interactive web interfaces
+* Improve problem-solving using JavaScript
 
-* JavaScript fundamentals
-* DOM manipulation
-* Event handling
-* Dynamic content rendering
-* Building interactive web interfaces
+## 📚 Training
 
-## 👩‍💻 Author
-
-**Yasmine Alaa**
-
-GitHub: [Yasmine 3laa](https://github.com/Yasmin3laa)
+This project was created as part of my **Web Development training at ITI**.
