@@ -22,7 +22,7 @@ The project focuses on creating a structured and readable static webpage using H
 ## 🛠️ Technologies Used
 
 * HTML5
-* CSS
+* Inline CSS
 
 ## 📂 Project Structure
 
