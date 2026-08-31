@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="form-container">
+      <div class="form-header">
+        <h1>Registration Form</h1>
+        <p>Personal Information</p>
+      </div>
+
+      <form action="#">
+        <table class="form-table">
+          <tr>
+            <td class="label-col"><label for="fullname">Full Name:</label></td>
+            <td class="input-col">
+              <input
+                type="text"
+                id="fullname"
+                placeholder="Enter your name"
+                required
+              />
+            </td>
+          </tr>
+          <tr>
+            <td class="label-col"><label for="email">Email:</label></td>
+            <td class="input-col">
+              <input
+                type="email"
+                id="email"
+                placeholder="Enter your email"
+                required
+              />
+            </td>
+          </tr>
+          <tr>
+            <td class="label-col"><label for="password">Password:</label></td>
+            <td class="input-col">
+              <input
+                type="password"
+                id="password"
+                placeholder="Enter password"
+                required
+              />
+            </td>
+          </tr>
+          <tr>
+            <td class="label-col">Gender:</td>
+            <td class="input-col">
+              <div class="radio-group">
+                <label
+                  ><input type="radio" name="gender" value="male" /> Male</label
+                >
+                <label
+                  ><input type="radio" name="gender" value="female" />
+                  Female</label
+                >
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td class="label-col">Skills:</td>
+            <td class="input-col">
+              <div class="checkbox-group">
+                <label
+                  ><input type="checkbox" name="skills" value="HTML" />
+                  HTML</label
+                >
+                <label
+                  ><input type="checkbox" name="skills" value="CSS" />
+                  CSS</label
+                >
+                <label
+                  ><input type="checkbox" name="skills" value="JavaScript" />
+                  JavaScript</label
+                >
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td class="label-col"><label for="country">Country:</label></td>
+            <td class="input-col">
+              <select id="country">
+                <option value="" disabled selected>-- Select Country --</option>
+                <option value="Egypt">Egypt</option>
+                <option value="Saudi Arabia">Saudi Arabia</option>
+                <option value="UAE">UAE</option>
+                <option value="USA">USA</option>
+              </select>
+            </td>
+          </tr>
+          <tr>
+            <td class="label-col"><label for="message">Message:</label></td>
+            <td class="input-col">
+              <textarea
+                id="message"
+                placeholder="Write your message..."
+              ></textarea>
+            </td>
+          </tr>
+          <tr class="button-row">
+            <td colspan="2">
+              <button type="submit" class="btn btn-register">Register</button>
+              <button type="reset" class="btn btn-clear">Clear</button>
+            </td>
+          </tr>
+        </table>
+      </form>
+    </div>
+  </body>
+</html>
