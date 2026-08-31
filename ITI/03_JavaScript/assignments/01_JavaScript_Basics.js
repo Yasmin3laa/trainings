@@ -1,20 +1,34 @@
+// ==================================================
+// JavaScript Basics
+// ==================================================
+
+// --------------------------------------------------
+// 1. Variables and Variable Declarations
+// --------------------------------------------------
+
 console.log(number1); // undefined
 console.log(number2); // undefined
 console.log(number3); // undefined
 
 var number1 = 3;
-// number1 = 3; // not defined
+// number1 = 3; // ReferenceError: number1 is not defined
 
 var number2 = 2.9;
 var number3 = 0xff;
 
+// Strings
 var firstName = "Yasmine";
 var middleName = "Alaa";
 var lastName = `Mohammed El-Hady`;
 
+// Boolean
 var flag = true;
 
 console.log("This is the External JavaScript file");
+
+// --------------------------------------------------
+// 2. Data Types
+// --------------------------------------------------
 
 console.log(typeof number1);
 console.log(typeof number2);
@@ -26,21 +40,32 @@ console.log(typeof lastName);
 
 console.log(typeof flag);
 
-// Odd vs Even
+// --------------------------------------------------
+// 3. Odd vs Even
+// --------------------------------------------------
+
 let myNumber = 4869;
+
 if (myNumber % 2 == 0) {
   console.log("Even Number");
 } else {
   console.log("Odd Number");
 }
 
-// Loop
+// --------------------------------------------------
+// 4. Loop
+// --------------------------------------------------
+
 for (let i = 1; i <= 10; i++) {
   console.log(i);
 }
 
-// Positive - Negative - Zero
+// --------------------------------------------------
+// 5. Positive - Negative - Zero
+// --------------------------------------------------
+
 let negNumber = -10;
+
 if (negNumber > 0) {
   console.log("Positive Number");
 } else if (negNumber < 0) {
@@ -49,14 +74,22 @@ if (negNumber > 0) {
   console.log("Zero");
 }
 
-// Multiplication table
+// --------------------------------------------------
+// 6. Multiplication Table
+// --------------------------------------------------
+
 let number = 8;
+
 for (let i = 1; i <= 10; i++) {
   console.log(`${number} * ${i} = ${number * i}`);
 }
 
-// Day of week
+// --------------------------------------------------
+// 7. Day of the Week
+// --------------------------------------------------
+
 let day = 4;
+
 if (day == 1) {
   console.log("Sunday");
 } else if (day == 2) {
@@ -75,7 +108,10 @@ if (day == 1) {
   console.log("Invalid day number");
 }
 
-// Weekend or Weekday
+// --------------------------------------------------
+// 8. Weekend or Weekday
+// --------------------------------------------------
+
 if (day == 1 || day == 2) {
   console.log("Weekend");
 } else if (day > 2 && day <= 7) {
