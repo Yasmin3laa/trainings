@@ -1,27 +1,31 @@
 # 🌐 HTML
 
-This section contains my HTML practice, exercises, and mini projects completed as part of the **ITI Web Development using Python & Generative AI** training.
+This section documents my HTML learning journey, practical exercises, and mini projects completed as part of the **ITI Web Development using Python & Generative AI** training.
+
+---
 
 ## 📚 Topics Covered
 
 * HTML5 Fundamentals
 * Document Structure
 * Semantic HTML
-* Headings and Paragraphs
-* Links and Navigation
-* Images and Image Attributes
+* Headings & Paragraphs
+* Links & Navigation
+* Images & Image Attributes
 * Lists
 * Tables
-* Forms and Input Fields
+* Forms & Input Fields
 * HTML Attributes
-* Sections and Main Content
-* Page Structure and Layout
+* Sections & Main Content
+* Page Structure & Layout
+
+---
 
 ## 🧠 Practice
 
 The practice in this section focuses on building a strong foundation in HTML and creating well-structured web pages.
 
-Key areas practiced:
+**Key Areas:**
 
 * Writing clean and structured HTML
 * Using semantic HTML elements
@@ -31,6 +35,8 @@ Key areas practiced:
 * Building basic forms
 * Applying HTML attributes
 * Structuring static web pages
+
+---
 
 ## 🚀 Mini Projects
 
@@ -47,7 +53,7 @@ A simple restaurant webpage built using **HTML5** as a practical exercise in str
 * Opening hours
 * Images
 * Structured page sections
-* Basic styling using inline CSS
+* Basic CSS styling
 
 #### 🛠️ Technologies
 
@@ -60,9 +66,11 @@ A simple restaurant webpage built using **HTML5** as a practical exercise in str
 Black_Goose_Bistro/
 │
 ├── index.html
-└── Goose Photo.jpeg
+├── Goose Photo.jpeg
 └── README.md
 ```
+
+---
 
 ## 🎯 Learning Goals
 
@@ -72,8 +80,22 @@ Black_Goose_Bistro/
 * Create and structure HTML forms
 * Organize web content into meaningful sections
 * Practice building static web pages
-* Prepare for modern frontend development
+* Build a strong foundation for frontend development
 
 ---
 
-**Part of my Web Development learning journey at ITI.**
+## 🚀 Skills Practiced
+
+**HTML:** `HTML5` · `Semantic HTML` · `Forms` · `Tables` · `Links` · `Images`
+
+**Web Development:** `Page Structure` · `Content Organization` · `Static Web Pages`
+
+---
+
+## 🔗 Navigation
+
+⬅️ **[Back to HTML & CSS](../)**
+
+⬆️ **[Back to Web Development using Python & Generative AI](../../)**
+
+🏠 **[Back to ITI Training](../../../)**
