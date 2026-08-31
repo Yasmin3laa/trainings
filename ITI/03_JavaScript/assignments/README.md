@@ -6,17 +6,21 @@ This folder contains JavaScript exercises and practical assignments completed du
 
 ### 01 - JavaScript Basics
 
-Covers fundamental JavaScript concepts, including:
+Introduces the fundamental concepts of JavaScript programming.
 
-* Variables
-* Data Types
+**Topics practiced:**
+
+* Variables and Data Types
+* Variable Declarations
 * Type Checking
+* Operators
 * Conditional Statements
 * Loops
 * Basic Mathematical Operations
 * Multiplication Tables
 
 **File:** `01_JavaScript_Basics.js`
+
 
 ---
 
