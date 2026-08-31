@@ -26,17 +26,11 @@ Python fundamentals, programming concepts, problem solving, and practical exerci
 
 Web fundamentals, semantic HTML, CSS, responsive design, and frontend development.
 
-📂 **[View HTML & CSS](./01_Web_Development_Python%26Gen_AI/02_HTML_CSS)**
+📂 **[View HTML & CSS](./01_Web_Development_Python%26Gen_AI/02_HTML%26CSS)**
 
 ---
 
-### 03. Generative AI & Prompt Engineering
-
-Introduction to Generative AI, prompt engineering concepts, and practical AI-assisted workflows.
-
----
-
-### 04. JavaScript
+### 03. JavaScript
 
 JavaScript fundamentals, programming concepts, and client-side web development.
 
@@ -44,13 +38,7 @@ JavaScript fundamentals, programming concepts, and client-side web development.
 
 ---
 
-### 05. Vibe Coding
-
-AI-assisted development, modern coding workflows, and using AI tools to support software development.
-
----
-
-### 06. PostgreSQL Database Fundamentals
+### 04. PostgreSQL Database Fundamentals
 
 Relational databases, SQL, PostgreSQL, database design, and database fundamentals.
 
@@ -58,7 +46,7 @@ Relational databases, SQL, PostgreSQL, database design, and database fundamental
 
 ---
 
-### 07. Django
+### 05. Django
 
 Backend web development using Python and Django, including building web applications and working with databases.
 
@@ -66,9 +54,13 @@ Backend web development using Python and Django, including building web applicat
 
 ---
 
-### 08. Freelancing
+## 🤖 Additional Topics
 
-Freelancing fundamentals, professional skills, client communication, and working in the freelance market.
+Alongside the main technical modules, the training also covers:
+
+* **Generative AI & Prompt Engineering** — Generative AI concepts and practical prompt engineering techniques.
+* **Vibe Coding** — AI-assisted development and modern coding workflows.
+* **Freelancing** — Freelancing fundamentals, professional skills, and client communication.
 
 ---
 
@@ -108,7 +100,7 @@ ITI/
 └── 01_Web_Development_Python&Gen_AI/
     │
     ├── 01_Python/
-    ├── 02_HTML_CSS/
+    ├── 02_HTML&CSS/
     ├── 03_JavaScript/
     ├── 04_PostgreSQL/
     ├── 05_Django/
