@@ -1,0 +1,85 @@
+{% load static %}
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Students</title>
+
+    <link rel="stylesheet" href="{% static 'css/students.css' %}" />
+  </head>
+
+  <body>
+    <header class="navbar">
+      <div class="container navbar-content">
+        <h1>Students Management</h1>
+
+        <a href="{% url 'create_student' %}" class="add-btn"> + Add Student </a>
+      </div>
+    </header>
+
+    <main class="container">
+      <section class="page-header">
+        <div>
+          <h2>All Students</h2>
+          <p>Manage your students information</p>
+        </div>
+
+        <div class="student-count">{{ students|length }} Students</div>
+      </section>
+
+      {% if students %}
+
+      <div class="students-grid">
+        {% for student in students %}
+
+        <div class="student-card">
+          <div class="student-image">
+            {% if student.image %}
+            <img src="{{ student.image.url }}" alt="{{ student.name }}" />
+            {% else %}
+            <div class="no-image">{{ student.name|first|upper }}</div>
+            {% endif %}
+          </div>
+
+          <div class="student-info">
+            <h3>{{ student.name }}</h3>
+
+            <div class="info-row">
+              <span class="label">GPA</span>
+              <span class="value"> {{ student.gpa }} </span>
+            </div>
+
+            <div class="info-row">
+              <span class="label">Gender</span>
+              <span class="value"> {{ student.gender }} </span>
+            </div>
+          </div>
+
+          <div class="card-actions">
+            <a href="{% url 'update_student' student.id %}" class="edit-btn">
+              Edit
+            </a>
+          </div>
+        </div>
+
+        {% endfor %}
+      </div>
+
+      {% else %}
+
+      <div class="empty-state">
+        <div class="empty-icon">🎓</div>
+
+        <h2>No Students Yet</h2>
+
+        <p>Start by adding your first student.</p>
+
+        <a href="{% url 'create_student' %}" class="add-btn"> + Add Student </a>
+      </div>
+
+      {% endif %}
+    </main>
+  </body>
+</html>
