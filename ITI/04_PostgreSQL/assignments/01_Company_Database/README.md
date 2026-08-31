@@ -1,12 +1,18 @@
 # Company Database — PostgreSQL
 
-A PostgreSQL database practice exercise covering database creation, table constraints, data insertion, retrieval, validation, and database management.
+A practical PostgreSQL exercise focused on database creation, table design, constraints, data insertion, data retrieval, validation, and database management.
 
-## Questions Covered
+## 📂 Project Files
+
+* `company_db.sql` — SQL script containing the database and table creation, sample data, queries, and validation exercises.
+
+## 📝 Questions Covered
 
 ### Question 1 — Create Database and Table
 
-Created a PostgreSQL database named `company_db` and an `employees` table with the following constraints:
+Created a PostgreSQL database named `company_db` and an `employees` table.
+
+**Table Structure:**
 
 * `employee_id` — Automatically generated primary key
 * `first_name` — Required, maximum 50 characters
@@ -15,7 +21,14 @@ Created a PostgreSQL database named `company_db` and an `employees` table with t
 * `age` — Must be at least 18
 * `salary` — Must be greater than or equal to 0
 
-The table structure was also displayed using a PostgreSQL command.
+**Constraints Used:**
+
+* `PRIMARY KEY`
+* `IDENTITY`
+* `NOT NULL`
+* `CHECK`
+* `VARCHAR`
+* `NUMERIC`
 
 ### Question 2 — Insert and Retrieve Data
 
@@ -25,47 +38,50 @@ Inserted employee records and practiced:
 * `SELECT`
 * `RETURNING *`
 
-Sample employees:
+**Sample Data:**
 
 | First Name | Last Name | Age | Phone       | Salary |
-| ---------- | --------- | --: | ----------- | -----: |
-| Ahmed      | Hassan    |  30 | 01234567891 |  65000 |
-| Sara       | Ali       |  25 | 01122334455 |  55000 |
-| Mariam     | Mostafa   |  35 | 01234567890 |  72000 |
+| ---------- | --------- | --- | ----------- | ------ |
+| Ahmed      | Hassan    | 30  | 01234567891 | 65000  |
+| Sara       | Ali       | 25  | 01122334455 | 55000  |
+| Mariam     | Mostafa   | 35  | 01234567890 | 72000  |
 
-An additional employee was inserted using `RETURNING *` to display the inserted record immediately.
+An additional employee was inserted using `RETURNING *` to immediately display the inserted record.
 
 ### Question 3 — Database Management and Validation
 
 Practiced:
 
-* Listing all PostgreSQL databases
+* Listing PostgreSQL databases
 * Connecting to `company_db`
+* Inspecting the database structure
 * Testing `CHECK` constraints
-* Handling invalid employee ages
-* Handling negative salaries
+* Validating employee ages
+* Validating salary values
+* Handling invalid data
 * Understanding database deletion restrictions
 * Safely dropping a database
 
-## Concepts Practiced
+## 🧠 Concepts Practiced
 
 * PostgreSQL
 * SQL
+* Relational Databases
 * Database Creation
 * Table Creation
 * Primary Keys
 * Identity Columns
 * `NOT NULL`
 * `VARCHAR`
+* `NUMERIC`
 * `CHECK` Constraints
 * `INSERT`
 * `SELECT`
 * `RETURNING`
-* Database Connection
-* Database Validation
+* Data Validation
 * Database Management
 
-## Main Constraints
+## 🔐 Main Constraints
 
 ```sql
 employee_id INT GENERATED ALWAYS AS IDENTITY PRIMARY KEY
@@ -81,12 +97,23 @@ age INT CHECK (age >= 18)
 salary NUMERIC CHECK (salary >= 0)
 ```
 
-## Tools
+## 🛠️ Tools & Technologies
 
 * PostgreSQL
 * SQL
-* pgAdmin / PostgreSQL Command Line
+* pgAdmin
+* PostgreSQL Command Line
 
-## Purpose
+## 🎯 Learning Goals
 
-This exercise is part of my database training and focuses on practicing PostgreSQL fundamentals, constraints, data validation, and database management.
+* Practice creating relational databases
+* Design tables with appropriate constraints
+* Understand primary keys and identity columns
+* Practice inserting and retrieving data
+* Apply data validation using `CHECK` constraints
+* Understand basic database management operations
+* Build a strong foundation in PostgreSQL for backend and full-stack development
+
+---
+
+**Part of my Web Development learning journey.**
