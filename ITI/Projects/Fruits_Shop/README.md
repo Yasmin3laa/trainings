@@ -1,12 +1,30 @@
 # 🍎 Fruits Shop
 
-A simple and responsive fruits shop website built with **HTML5 and CSS3** as part of my Web Development training.
+A simple and responsive fruits shop website built using **HTML5 and CSS3** as part of my Web Development training at ITI.
+
+## 📸 Screenshots
+
+### 🏠 Home
+
+![Home](./screenshots/home.png)
+
+### 🛠️ Services
+
+![Services](./screenshots/services.png)
+
+### 🍊 Fresh Fruits
+
+![Fruits](./screenshots/fruits.png)
+
+### 📞 Contact
+
+![Contact](./screenshots/contact.png)
 
 ## 📌 About the Project
 
-Fruits Shop is a static e-commerce-style website created to practice frontend development fundamentals.
+Fruits Shop is a static and responsive website designed to practice building and styling a simple e-commerce-style webpage.
 
-The project provides a simple interface for displaying fruit products, prices, and basic shop information while focusing on clean structure, layout, and responsive styling.
+The project focuses on creating a clean layout for displaying fruits, product information, and basic shop details.
 
 ## 🛠️ Technologies Used
 
@@ -16,67 +34,80 @@ The project provides a simple interface for displaying fruit products, prices, a
 ## ✨ Features
 
 * Responsive design
-* Navigation bar
+* Navigation bar with smooth scrolling
 * Fruits products section
-* Product images and prices
-* Shop information section
-* Styled buttons and sections
-* Clean and simple user interface
-* Responsive layout for different screen sizes
+* Product images and information
+* Services section
+* Testimonial section
+* Contact form
+* Footer with social media links
+* Hover effects and transitions
+* Mobile, tablet, and desktop layouts
 
 ## 📚 Concepts Practiced
 
-### HTML5
+### HTML
 
 * Semantic HTML
 * Page structure
 * Headings and paragraphs
-* Images
+* Images and alternative text
 * Links
 * Lists
 * Sections
+* Forms
 * Buttons
+* Navigation
 
-### CSS3
+### CSS
 
 * CSS selectors
 * Colors and typography
-* Backgrounds
-* Borders
-* Margin and padding
+* Background images
 * Box model
-* Display and positioning
+* Margin and padding
 * Flexbox
+* Positioning
+* Transitions
+* Hover effects
 * Responsive design
+* Media queries
 
-## 📂 Project Structure
+## 📁 Project Structure
 
 ```text
 Fruits_Shop/
+│
 ├── images/
+│   ├── logo.png
+│   ├── dish.png
+│   ├── orange.png
+│   ├── grapes.png
+│   ├── gauva.png
+│   └── ...
+│
 ├── screenshots/
+│   ├── home.png
+│   ├── services.png
+│   ├── fruits.png
+│   └── contact.png
+│
 ├── index.html
 ├── style.css
 └── README.md
 ```
 
-## 🖼️ Screenshots
-
-### Home Page
-
-![Fruits Shop Home Page](screenshots/home.png)
-
-> home.png
-
 ## 🎯 Learning Goals
 
-* Practice HTML5 and CSS3 fundamentals
-* Build a structured web page from scratch
+* Practice HTML and CSS fundamentals
+* Build structured web pages
 * Improve CSS layout and styling skills
 * Practice responsive web design
-* Create a product-based website layout
+* Build product-based layouts
 * Apply frontend concepts in a practical project
 
-## 📌 Project Status
+## 👩‍💻 Author
 
-Completed as part of my Web Development training.
+**Yasmine Alaa**
+
+GitHub: [Yasmine 3laa](https://github.com/Yasmin3laa)
