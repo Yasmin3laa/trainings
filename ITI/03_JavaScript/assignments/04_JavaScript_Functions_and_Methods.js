@@ -1,50 +1,68 @@
-// ================================================== Task 1 ==================================================
+// ==================================================
+// Task 4: Functions and Methods
+// ==================================================
+
+
+// ==================================================
+// Task 1: Bottle Game
+// ==================================================
+
 const bottleGame = function (persons) {
-  let range = persons.length;
-  let firstPerson = Math.floor(Math.random() * range);
+  const range = persons.length;
+
+  const firstPerson = Math.floor(Math.random() * range);
   let secondPerson = Math.floor(Math.random() * range);
 
-  let chosenPersons = [];
-  chosenPersons.push(persons[firstPerson]);
-  chosenPersons.push(persons[secondPerson]);
+  // Make sure the two selected persons are different
+  while (secondPerson === firstPerson) {
+    secondPerson = Math.floor(Math.random() * range);
+  }
 
-  return chosenPersons;
+  return [persons[firstPerson], persons[secondPerson]];
 };
 
 const persons = ["Ahmed", "Islam", "Sandra", "Fatima", "Ali"];
 
-// console.log(bottleGame(persons).toString());
 console.log(bottleGame(persons));
 
-// ================================================== Task 2 ==================================================
-// 1---------------------------------------------------------
+
+// ==================================================
+// Task 2.1: Format Full Name
+// ==================================================
+
 const fullName = function (fullNameNow) {
-  let nameWords = fullNameNow.split(" ");
-  let newfullName = "";
-  newfullName += nameWords[0].toUpperCase() + " ";
+  const nameWords = fullNameNow.trim().split(" ");
+  let newFullName = "";
+
+  newFullName += nameWords[0].toUpperCase() + " ";
 
   for (let index = 1; index < nameWords.length; index++) {
-    newfullName +=
+    newFullName +=
       nameWords[index][0].toUpperCase() +
       nameWords[index].slice(1).toLowerCase();
 
-    if (index != nameWords.length - 1) {
-      newfullName += " ";
+    if (index !== nameWords.length - 1) {
+      newFullName += " ";
     }
   }
 
-  return newfullName;
+  return newFullName;
 };
 
-console.log(fullName("the quick brown gox"));
+console.log(fullName("the quick brown fox"));
 
-// 2---------------------------------------------------------
+
+// ==================================================
+// Task 2.2: Find the Longest Word
+// ==================================================
+
 const longestWord = function (sentence) {
-  let words = sentence.split(" ");
+  const words = sentence.split(" ");
+
   let maxLength = 0;
   let targetWord = "";
 
-  for (let word of words) {
+  for (const word of words) {
     if (word.length > maxLength) {
       maxLength = word.length;
       targetWord = word;
@@ -56,18 +74,26 @@ const longestWord = function (sentence) {
 
 console.log(longestWord("Web Development Tutorial"));
 
-// 3---------------------------------------------------------
-const alphaOrder = function (string) {
-  let chars = string.split("");
-  chars.sort();
-  let newString = chars.join("");
 
-  return newString;
+// ==================================================
+// Task 2.3: Alphabetical Order
+// ==================================================
+
+const alphaOrder = function (string) {
+  const chars = string.split("");
+
+  chars.sort();
+
+  return chars.join("");
 };
 
 console.log(alphaOrder("javascript"));
 
-// 4---------------------------------------------------------
+
+// ==================================================
+// Task 2.4: Get Month Name
+// ==================================================
+
 const getMonthName = function (myDate) {
   const months = [
     "January",
@@ -83,17 +109,23 @@ const getMonthName = function (myDate) {
     "November",
     "December",
   ];
-  monthNumber = myDate.getMonth();
+
+  const monthNumber = myDate.getMonth();
 
   return months[monthNumber];
 };
 
-let myDate = new Date("2026-07-29");
+const myDate = new Date("2026-07-29");
+
 console.log(getMonthName(myDate));
 
-// 5---------------------------------------------------------
-const circleArea = function (raduis) {
-  return Math.PI * Math.pow(raduis, 2);
+
+// ==================================================
+// Task 2.5: Calculate Circle Area
+// ==================================================
+
+const circleArea = function (radius) {
+  return Math.PI * Math.pow(radius, 2);
 };
 
 console.log(circleArea(5));
