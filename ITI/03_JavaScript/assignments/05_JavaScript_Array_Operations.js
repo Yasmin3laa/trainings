@@ -14,6 +14,7 @@ const getArraySize = function () {
   return myArraySize;
 };
 
+
 // ================================================== Get Array Elements ==================================================
 const getArrayElements = function (myArraySize) {
   const myArray = [];
@@ -34,6 +35,7 @@ const getArrayElements = function (myArraySize) {
   return myArray;
 };
 
+
 // ================================================== Get Letter ==================================================
 const getLetter = function () {
   let letters = ["a", "b", "c", "d", "e", "f", "g", "h"];
@@ -52,10 +54,12 @@ const getLetter = function () {
   return letter.toLowerCase();
 };
 
+
 // ================================================== Case Letter A ==================================================
 const letterA = function (myArrayElements) {
   console.log(myArrayElements.toString());
 };
+
 
 // ================================================== Case Letter B ==================================================
 const letterB = function (myArrayElements) {
@@ -63,17 +67,20 @@ const letterB = function (myArrayElements) {
   console.log(ascOrder.toString());
 };
 
+
 // ================================================== Case Letter C ==================================================
 const letterC = function (myArrayElements) {
   const descOrder = myArrayElements.toSorted((a, b) => b - a);
   console.log(descOrder.toString());
 };
 
+
 // ================================================== Case Letter D ==================================================
 const letterD = function (myArrayElements) {
   const reversedArrayVersion = myArrayElements.toReversed();
   console.log(reversedArrayVersion.toString());
 };
+
 
 // ================================================== Case Letter E ==================================================
 const letterE = function (myArrayElements) {
@@ -84,6 +91,7 @@ const letterE = function (myArrayElements) {
     console.log(evenNumbers.toString());
   }
 };
+
 
 // ================================================== Case Letter F ==================================================
 const letterF = function (myArrayElements) {
@@ -108,17 +116,20 @@ const letterF = function (myArrayElements) {
   }
 };
 
+
 // ================================================== Case Letter G ==================================================
 const letterG = function (myArrayElements) {
   const discount = myArrayElements.map((value) => value * 0.7);
   console.log(discount.toString());
 };
 
+
 // ================================================== Case Letter H ==================================================
 const letterH = function (myArrayElements) {
   let string = myArrayElements.join("***");
   console.log(string);
 };
+
 
 // ================================================== Processing Function ==================================================
 const processing = function (myLetter, myArrayElements) {
@@ -149,6 +160,7 @@ const processing = function (myLetter, myArrayElements) {
       break;
   }
 };
+
 
 // ================================================== Main Function ==================================================
 const main = function () {
