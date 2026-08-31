@@ -1,25 +1,26 @@
-# To-Do List
+# ✅ To-Do List
 
-A simple and interactive To-Do List application built with HTML, CSS, and JavaScript.
+A simple and interactive **To-Do List application** built using HTML5, CSS3, and JavaScript.
 
-## Features
+This project was created as part of my **Web Development training at ITI** to practice JavaScript fundamentals and DOM manipulation.
+
+## ✨ Features
 
 * Add new tasks
 * Mark tasks as completed
 * Delete tasks
-* Display the list of tasks
+* Display tasks dynamically
 * Interactive user interface
 * Dynamic DOM manipulation
+* Event-driven interactions
 
-## Technologies Used
+## 🛠️ Technologies Used
 
 * HTML5
 * CSS3
 * JavaScript (ES6+)
 
-## JavaScript Concepts
-
-This project demonstrates:
+## 📚 JavaScript Concepts Practiced
 
 * DOM Manipulation
 * Event Handling
@@ -32,8 +33,34 @@ This project demonstrates:
 * `createElement()`
 * `appendChild()`
 * `classList`
-* Local data handling
+* Dynamic rendering
+* Event-driven programming
 
-## Purpose
+## 📁 Project Structure
 
-This project was created as part of my JavaScript practice to improve my understanding of DOM manipulation, events, and building interactive web applications.
+```text
+To_Do_List/
+│
+├── screenshots/
+│
+├── index.html
+├── style.css
+├── script.js
+└── README.md
+```
+
+## 🎯 Purpose
+
+This project was created as part of my JavaScript practice to strengthen my understanding of:
+
+* JavaScript fundamentals
+* DOM manipulation
+* Event handling
+* Dynamic content rendering
+* Building interactive web interfaces
+
+## 👩‍💻 Author
+
+**Yasmine Alaa**
+
+GitHub: [Yasmine 3laa](https://github.com/Yasmin3laa)
