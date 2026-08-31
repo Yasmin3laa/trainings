@@ -1,46 +1,72 @@
-# CSS
+# 🎨 CSS
 
-This section contains my CSS practice, exercises, and mini projects as part of my Web Development training.
+This section contains my CSS practice, exercises, and practical work completed as part of the **ITI Web Development using Python & Generative AI** training.
 
 ## 📚 Topics Covered
 
-- CSS Syntax and Fundamentals
-- Selectors
-- Colors and Backgrounds
-- Fonts and Text Styling
-- Borders
-- Width and Height
-- Margin and Padding
-- Box Model
-- Display
-- Positioning
-- Flexbox
-- CSS Grid
-- Pseudo-classes
-- Pseudo-elements
-- CSS Variables
-- Responsive Design
-- Media Queries
-- Transitions and Animations
+* CSS Fundamentals
+* CSS Syntax
+* Selectors
+* Colors and Backgrounds
+* Fonts and Typography
+* Text Styling
+* Borders
+* Width and Height
+* Margin and Padding
+* CSS Box Model
+* Display
+* Positioning
+* Flexbox
+* CSS Grid
+* Pseudo-classes
+* Pseudo-elements
+* CSS Variables
+* Responsive Design
+* Media Queries
+* Transitions and Animations
 
 ## 🧠 Practice
 
-The exercises in this section focus on building a strong foundation in CSS and creating clean, responsive, and user-friendly web layouts.
+The practice in this section focuses on applying CSS concepts to create clean, structured, responsive, and user-friendly web layouts.
 
-I practice:
+Key areas practiced:
 
-- Styling HTML elements
-- Creating page layouts
-- Working with the CSS Box Model
-- Using Flexbox and Grid
-- Creating responsive designs
-- Improving typography and visual hierarchy
-- Adding transitions and animations
-- Recreating common web layouts
+* Styling HTML elements
+* Working with the CSS Box Model
+* Creating page layouts
+* Using Flexbox for responsive layouts
+* Using CSS Grid for structured layouts
+* Applying positioning techniques
+* Working with typography and visual hierarchy
+* Creating responsive designs with media queries
+* Using pseudo-classes and pseudo-elements
+* Adding transitions and animations
+* Recreating common web layouts
 
+## 🛠️ Skills Practiced
 
-**Features:**
-- Page layout and styling
-- Typography
-- Colors and backgrounds
-- Responsive layout
+**CSS:**
+`CSS3` · `Flexbox` · `CSS Grid` · `Responsive Design` · `Media Queries` · `CSS Variables` · `Transitions` · `Animations`
+
+## 📂 Repository Structure
+
+```text
+CSS/
+│
+├── README.md
+└── ...
+```
+
+## 🎯 Learning Goals
+
+* Build a strong foundation in CSS
+* Create clean and well-structured layouts
+* Master Flexbox and CSS Grid
+* Build responsive web pages
+* Improve typography and visual hierarchy
+* Understand modern CSS layout techniques
+* Apply CSS through practical exercises
+
+---
+
+**Part of my HTML & CSS learning journey at ITI.**
