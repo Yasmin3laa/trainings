@@ -1,6 +1,6 @@
-# HTML & CSS
+# 🌐 HTML & CSS
 
-This section contains my practice, exercises, and learning progress in **HTML and CSS** as part of my Web Development training.
+This section contains my practice, exercises, and learning progress in **HTML and CSS** as part of the ITI Web Development using Python & Generative AI training.
 
 ## 📚 Topics Covered
 
@@ -8,13 +8,14 @@ This section contains my practice, exercises, and learning progress in **HTML an
 
 * HTML5 Fundamentals
 * Semantic HTML
+* Document Structure
 * Headings and Paragraphs
 * Links and Images
 * Lists
 * Tables
 * Forms and Input Fields
 * HTML Attributes
-* Page Structure
+* Multimedia
 * Accessibility Basics
 
 ### CSS
@@ -35,24 +36,60 @@ This section contains my practice, exercises, and learning progress in **HTML an
 
 ## 🧠 Practice
 
-The exercises in this section focus on building a strong foundation in:
+The exercises in this section focus on applying HTML and CSS concepts through practical web development tasks.
 
-* Writing clean and semantic HTML
-* Styling web pages with CSS
-* Creating responsive layouts
-* Using Flexbox and Grid
-* Building forms and structured web pages
-* Recreating common website layouts
+### HTML Practice
 
+* Creating structured web pages
+* Building forms
+* Working with tables and lists
+* Using semantic HTML elements
+* Organizing page content
+* Practicing HTML attributes
 
-## 🎯 Goals
+### CSS Practice
+
+* Styling HTML elements
+* Working with the CSS Box Model
+* Creating layouts with Flexbox
+* Creating layouts with CSS Grid
+* Using positioning techniques
+* Building responsive layouts
+* Applying media queries
+* Practicing selectors and pseudo-classes
+
+## 📂 Repository Structure
+
+```text
+02_HTML_CSS/
+│
+├── HTML/
+│   └── ...
+│
+├── CSS/
+│   └── ...
+│
+└── README.md
+```
+
+## 🎯 Learning Goals
 
 * Build well-structured and semantic web pages
+* Strengthen HTML5 and CSS fundamentals
 * Create responsive and user-friendly layouts
-* Strengthen my HTML & CSS fundamentals
-* Prepare for modern frontend development
-* Apply these skills in real-world projects
+* Understand modern CSS layout techniques
+* Practice Flexbox and CSS Grid
+* Improve frontend development skills
+* Apply HTML and CSS concepts through practical exercises
+
+## 🚀 Skills Practiced
+
+**HTML:**
+`HTML5` · `Semantic HTML` · `Forms` · `Tables` · `Accessibility`
+
+**CSS:**
+`CSS3` · `Flexbox` · `Grid` · `Responsive Design` · `Media Queries`
 
 ---
 
-**Part of my Web Development learning journey.**
+**Part of my Web Development learning journey at ITI.**
