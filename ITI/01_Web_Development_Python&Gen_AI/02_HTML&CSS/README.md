@@ -1,19 +1,21 @@
 # 🌐 HTML & CSS
 
-This section contains my practice, exercises, and learning progress in **HTML and CSS** as part of the ITI Web Development using Python & Generative AI training.
+This section documents my learning journey, practical exercises, and hands-on work in **HTML and CSS** as part of the **ITI Web Development using Python & Generative AI** training.
+
+---
 
 ## 📚 Topics Covered
 
 ### HTML
 
 * HTML5 Fundamentals
-* Semantic HTML
 * Document Structure
-* Headings and Paragraphs
-* Links and Images
+* Semantic HTML
+* Headings & Paragraphs
+* Links & Images
 * Lists
 * Tables
-* Forms and Input Fields
+* Forms & Input Fields
 * HTML Attributes
 * Multimedia
 * Accessibility Basics
@@ -22,21 +24,24 @@ This section contains my practice, exercises, and learning progress in **HTML an
 
 * CSS Fundamentals
 * Selectors
-* Colors and Backgrounds
-* Fonts and Text Styling
+* Colors & Backgrounds
+* Fonts & Text Styling
 * Box Model
-* Width, Height, Margin, and Padding
+* Width & Height
+* Margin & Padding
 * Borders
-* Display and Positioning
+* Display & Positioning
 * Flexbox
 * CSS Grid
 * Responsive Design
 * Media Queries
-* Pseudo-classes and Pseudo-elements
+* Pseudo-classes & Pseudo-elements
+
+---
 
 ## 🧠 Practice
 
-The exercises in this section focus on applying HTML and CSS concepts through practical web development tasks.
+The exercises focus on applying HTML and CSS concepts through practical web development tasks.
 
 ### HTML Practice
 
@@ -58,6 +63,19 @@ The exercises in this section focus on applying HTML and CSS concepts through pr
 * Applying media queries
 * Practicing selectors and pseudo-classes
 
+---
+
+## 🛠️ Tools & Technologies
+
+* **HTML5**
+* **CSS3**
+* **Flexbox**
+* **CSS Grid**
+* **Responsive Design**
+* **Media Queries**
+
+---
+
 ## 📂 Repository Structure
 
 ```text
@@ -72,6 +90,8 @@ The exercises in this section focus on applying HTML and CSS concepts through pr
 └── README.md
 ```
 
+---
+
 ## 🎯 Learning Goals
 
 * Build well-structured and semantic web pages
@@ -82,14 +102,20 @@ The exercises in this section focus on applying HTML and CSS concepts through pr
 * Improve frontend development skills
 * Apply HTML and CSS concepts through practical exercises
 
+---
+
 ## 🚀 Skills Practiced
 
-**HTML:**
-`HTML5` · `Semantic HTML` · `Forms` · `Tables` · `Accessibility`
+**HTML:** `HTML5` · `Semantic HTML` · `Forms` · `Tables` · `Accessibility`
 
-**CSS:**
-`CSS3` · `Flexbox` · `Grid` · `Responsive Design` · `Media Queries`
+**CSS:** `CSS3` · `Flexbox` · `Grid` · `Responsive Design` · `Media Queries`
 
 ---
 
-**Part of my Web Development learning journey at ITI.**
+## 🔗 Navigation
+
+⬅️ **[Back to Web Development using Python & Generative AI](../)**
+
+⬆️ **[Back to ITI Training](../../)**
+
+🏠 **[Back to Training Repository](../../..)**
