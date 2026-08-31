@@ -4,9 +4,9 @@ A simple static restaurant webpage created as part of my **HTML practice** durin
 
 ## 📖 About the Project
 
-**Black Goose Bistro** is a beginner-friendly restaurant webpage designed to practice the fundamentals of HTML and basic webpage styling.
+**Black Goose Bistro** is a beginner-friendly restaurant webpage created to practice HTML5 fundamentals and basic webpage styling.
 
-The project focuses on creating a structured and readable static webpage using HTML5.
+The project focuses on creating a structured static webpage and organizing content using HTML elements.
 
 ## ✨ Features
 
@@ -16,8 +16,8 @@ The project focuses on creating a structured and readable static webpage using H
 * Location details
 * Opening hours
 * Restaurant image
-* Structured content sections
-* Basic webpage styling
+* Structured webpage sections
+* Basic styling
 
 ## 🛠️ Technologies Used
 
@@ -38,23 +38,13 @@ Black_Goose_Bistro/
 
 Through this project, I practiced:
 
-* Creating a basic HTML5 document
+* Creating an HTML5 document
 * Using headings and paragraphs
 * Working with images
 * Adding links
-* Structuring content with semantic elements
-* Organizing webpage sections
+* Structuring webpage content
+* Organizing content into sections
 * Applying basic CSS styling
-
-## 🚀 Future Improvements
-
-Possible improvements for the project:
-
-* Add a dedicated CSS file
-* Improve responsive design
-* Add a navigation menu
-* Enhance accessibility
-* Add additional restaurant pages
 
 ---
 
