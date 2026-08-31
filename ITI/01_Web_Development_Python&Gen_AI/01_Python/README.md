@@ -1,6 +1,8 @@
 # 🐍 Python
 
-This section documents my learning journey and practical work from the **Python module** of the ITI Web Development using Python & Generative AI training.
+This section documents my learning journey, practical exercises, assignments, and problem-solving practice from the **Python module** of the ITI Web Development using Python & Generative AI training.
+
+---
 
 ## 📚 Topics Covered
 
@@ -21,22 +23,11 @@ This section documents my learning journey and practical work from the **Python 
 * Exception Handling
 * Object-Oriented Programming
 
-## 🧠 Problem Solving
-
-This section includes programming exercises and problem-solving tasks completed during the training.
-
-The exercises focus on:
-
-* Logical thinking
-* Writing clean and structured Python code
-* Working with different data structures
-* Applying control flow and functions
-* Handling user input and validation
-* Solving practical programming problems
+---
 
 ## 🛠️ Practical Work
 
-The Python module includes practical exercises and assignments covering the fundamentals of Python programming.
+The practical work includes Jupyter Notebook assignments and Python exercises covering the concepts studied throughout the module.
 
 ### Assignments
 
@@ -45,13 +36,20 @@ The Python module includes practical exercises and assignments covering the fund
 * `03_Control_Flow_Functions_Dictionaries.ipynb` — Control flow, functions, dictionaries, and problem-solving exercises.
 * `04_Modules_File_IO_Exception_Handling/` — Modules, file handling, exception handling, and input validation.
 
-### Additional Practice
+---
 
-* Problem-solving exercises
-* Programming tasks
-* Practical Python exercises
-* Jupyter Notebook assignments
+## 📓 Learning Materials
 
+The module includes practical Python exercises and Jupyter Notebooks covering the concepts studied throughout the training.
+
+**Tools & Technologies:**
+
+* Python
+* Jupyter Notebook
+* `.py` Python files
+* `.ipynb` Jupyter Notebooks
+
+---
 
 ## 📂 Repository Structure
 
@@ -59,6 +57,7 @@ The Python module includes practical exercises and assignments covering the fund
 01_Python/
 │
 ├── assignments/
+│   │
 │   ├── 01_Basics.ipynb
 │   ├── 02_Strings_Lists_Sets_Tuples.ipynb
 │   ├── 03_Control_Flow_Functions_Dictionaries.ipynb
@@ -71,21 +70,24 @@ The Python module includes practical exercises and assignments covering the fund
 └── README.md
 ```
 
-
-## 📓 Learning Materials
-
-The repository includes practical Python exercises and Jupyter Notebooks covering the topics studied throughout the module.
+---
 
 ## 🎯 Learning Goals
 
-* Build a strong foundation in Python
-* Practice problem-solving and programming logic
-* Understand Python data structures
-* Apply Object-Oriented Programming concepts
-* Work with modules and files
-* Write clean and maintainable Python code
-* Apply Python concepts through practical exercises and assignments
+* Build a strong foundation in Python programming
+* Develop programming logic and problem-solving skills
+* Understand and work with Python data structures
+* Apply functions and control-flow concepts
+* Understand Object-Oriented Programming
+* Work with modules and packages
+* Handle files and exceptions
+* Practice writing clean and maintainable Python code
+* Apply Python concepts through practical assignments
 
 ---
 
-⬅️ [Back to ITI Training](../)
+## 🔗 Navigation
+
+⬅️ **[Back to Web Development using Python & Generative AI](../)**
+
+⬅️ **[Back to ITI Training](../../)**
