@@ -1,30 +1,34 @@
 # PostgreSQL Assignments
 
-This section contains practical PostgreSQL assignments completed during my Web Development training.
+This section contains the **practical PostgreSQL assignments** completed during my Web Development training at **ITI**.
+
+The assignments cover database creation, constraints, relationships, SQL queries, data manipulation, and database maintenance.
+
+---
 
 ## 📂 Assignments
 
 ### 01. Company Database
 
-A practical database exercise focused on creating and managing a company database.
+A practical database assignment focused on **creating and managing a company database** and defining its basic relational structure.
 
 **Topics Practiced:**
 
 * Database creation
 * Table creation
-* Data types
+* SQL data types
 * Primary Keys
 * Foreign Keys
 * Constraints
 * Data insertion
 * Data retrieval
-* Database management
+* Relational database structure
 
 ---
 
 ### 02. Constraints and Referential Integrity
 
-A practical lab focused on applying database constraints and maintaining referential integrity.
+A practical assignment focused on **database constraints, relationships, and maintaining referential integrity** between related tables.
 
 **Topics Practiced:**
 
@@ -34,21 +38,23 @@ A practical lab focused on applying database constraints and maintaining referen
 * `UNIQUE`
 * `CHECK`
 * Referential Integrity
-* Relationships between tables
+* Table relationships
+* Data validation
 * Business rules
 
 ---
 
 ### 03. SQL Queries and Database Maintenance
 
-A practical assignment focused on writing SQL queries and performing database maintenance operations.
+A practical assignment focused on **writing SQL queries, manipulating data, and performing database maintenance operations**.
 
 **Topics Practiced:**
 
 * `SELECT`
 * Filtering with `WHERE`
 * Sorting with `ORDER BY`
-* Aggregate functions
+* `DISTINCT`
+* Aggregate Functions
 * `GROUP BY`
 * `HAVING`
 * SQL Joins
@@ -58,21 +64,49 @@ A practical assignment focused on writing SQL queries and performing database ma
 * `DELETE`
 * Database maintenance
 
-## 🛠️ Tools & Technologies
+---
 
-* PostgreSQL
-* SQL
-* pgAdmin
+## 🧠 Skills Practiced
 
-## 🎯 Learning Goals
+Through these assignments, I practiced:
 
-* Practice writing SQL queries
-* Understand relational database concepts
-* Apply constraints and relationships
-* Work with real database scenarios
-* Improve database design and management skills
-* Build a strong foundation for backend and full-stack development
+* Designing relational database structures
+* Creating and modifying database tables
+* Defining constraints and relationships
+* Maintaining referential integrity
+* Writing SQL queries
+* Filtering and sorting data
+* Aggregating and grouping data
+* Joining related tables
+* Using subqueries
+* Inserting, updating, and deleting records
+* Managing relational database data
 
 ---
 
-**Part of my Web Development learning journey.**
+## 🛠️ Tools & Technologies
+
+* **PostgreSQL**
+* **SQL**
+* **pgAdmin**
+
+---
+
+## 🎯 Learning Outcomes
+
+After completing these assignments, I developed practical experience in:
+
+* Relational database design
+* SQL query writing
+* Data manipulation
+* Database constraints
+* Referential integrity
+* Table relationships
+* Database maintenance
+* PostgreSQL database management
+
+These skills provide a foundation for **Backend and Full-Stack Web Development**.
+
+---
+
+#### Part of my **Web Development learning journey**.
