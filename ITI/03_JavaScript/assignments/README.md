@@ -8,7 +8,7 @@ This folder contains JavaScript exercises and practical assignments completed du
 
 Introduces the fundamental concepts of JavaScript programming.
 
-**Topics practiced:**
+Topics include:
 
 * Variables and Data Types
 * Variable Declarations
