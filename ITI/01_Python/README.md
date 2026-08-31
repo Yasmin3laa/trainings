@@ -4,52 +4,35 @@ This section documents my learning journey and practical work from the **Python 
 
 ## 📚 Topics Covered
 
-### Python Fundamentals
-
+* Python Fundamentals
 * Variables & Data Types
+* Input & Output
 * Operators
 * Conditional Statements
-* Loops
+* Loops & Control Flow
 * Functions
-
-### Data Structures
-
+* Strings
 * Lists
 * Tuples
-* Dictionaries
 * Sets
-
-### Object-Oriented Programming
-
-* Classes & Objects
-* Constructors
-* Inheritance
-* Polymorphism
-* Encapsulation
-
-### Error Handling
-
-* Exceptions
-* Exception Handling
-* `try`, `except`, `else`, and `finally`
-
-### Modules & Files
-
+* Dictionaries
 * Modules & Packages
-* Importing Modules
 * File Handling
-* Reading & Writing Files
+* Exception Handling
+* Object-Oriented Programming
 
 ## 🧠 Problem Solving
 
-Practice exercises and programming problems completed during the training to strengthen programming fundamentals and logical thinking.
+This section includes programming exercises and problem-solving tasks completed during the training.
 
-Topics include:
+The exercises focus on:
 
-* Programming Fundamentals
-* Problem Solving
-* Data Structures
-* Algorithms
+* Logical thinking
+* Writing clean and structured Python code
+* Working with different data structures
+* Applying control flow and functions
+* Handling user input and validation
+* Solving practical programming problems
 
 ## 🛠️ Practical Work
 
@@ -68,6 +51,25 @@ The Python module includes practical exercises and assignments covering the fund
 * Programming tasks
 * Practical Python exercises
 * Jupyter Notebook assignments
+
+
+## 📂 Repository Structure
+
+```text
+01_Python/
+│
+├── assignments/
+│   ├── 01_Basics.ipynb
+│   ├── 02_Strings_Lists_Sets_Tuples.ipynb
+│   ├── 03_Control_Flow_Functions_Dictionaries.ipynb
+│   │
+│   └── 04_Modules_File_IO_Exception_Handling/
+│       ├── modules_file_io.ipynb
+│       ├── math_utils.py
+│       └── users.txt
+│
+└── README.md
+```
 
 
 ## 📓 Learning Materials
