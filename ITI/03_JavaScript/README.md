@@ -1,62 +1,59 @@
 # JavaScript
 
-This section contains my JavaScript practice, exercises, and projects as part of my Web Development training.
+This section contains my JavaScript practice and exercises as part of my Web Development training at ITI.
 
 ## 📚 Topics Covered
 
-- JavaScript Fundamentals
-- Variables and Data Types
-- Operators
-- Conditional Statements
-- Loops
-- Functions
-- Arrays
-- Objects
-- Strings and String Methods
-- Array Methods
-- DOM Manipulation
-- Events and Event Handling
-- Form Validation
-- ES6+ Features
-- Error Handling
-- JSON
-- Local Storage
-- Basic Asynchronous JavaScript
+* JavaScript Fundamentals
+* Variables and Data Types
+* Operators
+* Conditional Statements
+* Loops
+* Functions
+* Arrays
+* Objects
+* Strings and String Methods
+* Array Methods
+* Basic ES6+ Features
 
 ## 🧠 Practice
 
-The exercises in this section focus on building a strong foundation in JavaScript and applying programming concepts to web development.
+The exercises in this section focus on strengthening JavaScript fundamentals and developing problem-solving skills.
 
 I practice:
 
-- Writing JavaScript logic
-- Working with variables and data types
-- Using conditions and loops
-- Creating reusable functions
-- Manipulating arrays and objects
-- Handling user input
-- Working with the DOM
-- Handling browser events
-- Validating forms
-- Building interactive web pages
+* Writing JavaScript logic
+* Working with variables and data types
+* Using conditions and loops
+* Creating reusable functions
+* Working with arrays and objects
+* Using built-in methods
+* Solving programming exercises
+* Applying JavaScript concepts to practical problems
 
-## 🚀 Projects
+## 📂 Assignments
 
-This section will include JavaScript-based projects and interactive web applications built during my training.
+The `assignments` folder contains JavaScript exercises and practical tasks completed during the training.
 
-### Projects
+### Topics Practiced
 
-- JavaScript Exercises
-- DOM Manipulation Projects
-- Interactive Web Pages
-- Form Validation Projects
+* Variables and Data Types
+* Functions
+* Arrays
+* Array Operations
+* Objects
+* Loops
+* Conditions
+* Problem Solving
 
 ## 🎯 Learning Goals
 
-- Strengthen my JavaScript fundamentals
-- Build interactive web pages
-- Improve problem-solving and programming skills
-- Master DOM manipulation and event handling
-- Apply JavaScript in real-world frontend projects
-- Prepare for modern frontend development
-  
+* Strengthen my JavaScript fundamentals
+* Improve programming and problem-solving skills
+* Write clean and reusable JavaScript code
+* Understand how JavaScript is used in web development
+* Build a strong foundation for DOM manipulation and modern frontend development
+
+---
+
+**Part of my Web Development learning journey at ITI.**
