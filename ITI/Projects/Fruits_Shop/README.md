@@ -1,58 +1,82 @@
 # 🍎 Fruits Shop
 
-A simple and responsive fruits shop website built using **HTML5 and CSS3** as part of my Web Development training.
+A simple and responsive fruits shop website built with **HTML5 and CSS3** as part of my Web Development training.
 
 ## 📌 About the Project
 
-Fruits Shop is a static website designed to practice building and styling a simple e-commerce-style webpage.
+Fruits Shop is a static e-commerce-style website created to practice frontend development fundamentals.
 
-The project focuses on creating a clean layout for displaying fruits, prices, and basic shop information.
+The project provides a simple interface for displaying fruit products, prices, and basic shop information while focusing on clean structure, layout, and responsive styling.
 
 ## 🛠️ Technologies Used
 
-- HTML5
-- CSS3
+* HTML5
+* CSS3
 
 ## ✨ Features
 
-- Clean and simple user interface
-- Fruits products section
-- Product images and prices
-- Navigation bar
-- Shop information
-- Styled buttons and sections
-- Responsive layout
+* Responsive design
+* Navigation bar
+* Fruits products section
+* Product images and prices
+* Shop information section
+* Styled buttons and sections
+* Clean and simple user interface
+* Responsive layout for different screen sizes
 
 ## 📚 Concepts Practiced
 
-### HTML
+### HTML5
 
-- Semantic HTML
-- Page structure
-- Headings and paragraphs
-- Images
-- Links
-- Lists
-- Sections
-- Buttons
+* Semantic HTML
+* Page structure
+* Headings and paragraphs
+* Images
+* Links
+* Lists
+* Sections
+* Buttons
 
-### CSS
+### CSS3
 
-- Selectors
-- Colors
-- Fonts
-- Backgrounds
-- Borders
-- Margin and Padding
-- Box Model
-- Display and Positioning
-- Flexbox
-- Responsive styling
+* CSS selectors
+* Colors and typography
+* Backgrounds
+* Borders
+* Margin and padding
+* Box model
+* Display and positioning
+* Flexbox
+* Responsive design
+
+## 📂 Project Structure
+
+```text
+Fruits_Shop/
+├── images/
+├── screenshots/
+├── index.html
+├── style.css
+└── README.md
+```
+
+## 🖼️ Screenshots
+
+### Home Page
+
+![Fruits Shop Home Page](screenshots/home.png)
+
+> home.png
 
 ## 🎯 Learning Goals
 
-- Practice HTML and CSS fundamentals
-- Build structured web pages
-- Improve CSS layout and styling skills
-- Practice creating product-based layouts
-- Apply frontend concepts in a practical project
+* Practice HTML5 and CSS3 fundamentals
+* Build a structured web page from scratch
+* Improve CSS layout and styling skills
+* Practice responsive web design
+* Create a product-based website layout
+* Apply frontend concepts in a practical project
+
+## 📌 Project Status
+
+Completed as part of my Web Development training.
