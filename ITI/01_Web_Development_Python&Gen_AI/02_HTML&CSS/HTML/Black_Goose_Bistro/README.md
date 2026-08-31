@@ -1,28 +1,28 @@
 # 🍽️ Black Goose Bistro
 
-A simple static restaurant webpage created as part of my **HTML practice** during the ITI Web Development training.
+A simple static restaurant webpage built as part of my **HTML practice** during the **ITI Web Development using Python & Generative AI** training.
 
 ## 📖 About the Project
 
-**Black Goose Bistro** is a beginner-friendly restaurant webpage created to practice HTML5 fundamentals and basic webpage styling.
+**Black Goose Bistro** is a beginner-level static webpage designed to practice the fundamentals of **HTML5** and basic CSS styling.
 
-The project focuses on creating a structured static webpage and organizing content using HTML elements.
+The project presents a fictional restaurant with information about its services, location, opening hours, and a restaurant image.
 
 ## ✨ Features
 
-* Restaurant name and introduction
+* Restaurant introduction
 * Restaurant description
 * Catering information
 * Location details
 * Opening hours
 * Restaurant image
-* Structured webpage sections
-* Basic styling
+* Structured HTML content
+* Basic inline CSS styling
 
 ## 🛠️ Technologies Used
 
-* HTML5
-* Inline CSS
+* **HTML5**
+* **CSS3 (Inline CSS)**
 
 ## 📂 Project Structure
 
@@ -31,6 +31,8 @@ Black_Goose_Bistro/
 │
 ├── index.html
 ├── Goose Photo.jpeg
+├── screenshots/
+│   └── Black_Goose_Bistro.png
 └── README.md
 ```
 
@@ -38,14 +40,23 @@ Black_Goose_Bistro/
 
 Through this project, I practiced:
 
-* Creating an HTML5 document
-* Using headings and paragraphs
-* Working with images
-* Adding links
-* Structuring webpage content
-* Organizing content into sections
+* Creating a basic HTML5 document
+* Using semantic HTML elements
+* Working with headings and paragraphs
+* Adding and displaying images
+* Creating hyperlinks
+* Organizing webpage content
+* Structuring information into sections
 * Applying basic CSS styling
+
+## 📸 Project Preview
+
+![Black Goose Bistro Preview](screenshots/Black_Goose_Bistro.png)
+
+## 📚 Training
+
+This project was completed as part of my **ITI Web Development using Python & Generative AI** training, within the **HTML & CSS** module.
 
 ---
 
-**Part of my HTML & CSS learning journey at ITI.**
+**Part of my Web Development learning journey at ITI.**
