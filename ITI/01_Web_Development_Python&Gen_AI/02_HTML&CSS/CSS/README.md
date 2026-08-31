@@ -4,7 +4,8 @@ This section contains my CSS practice, exercises, and practical work completed a
 
 ## 📚 Topics Covered
 
-* CSS Fundamentals
+### CSS Fundamentals
+
 * CSS Syntax
 * Selectors
 * Colors and Backgrounds
@@ -14,20 +15,31 @@ This section contains my CSS practice, exercises, and practical work completed a
 * Width and Height
 * Margin and Padding
 * CSS Box Model
+
+### Layout & Positioning
+
 * Display
 * Positioning
 * Flexbox
 * CSS Grid
+
+### Advanced CSS
+
 * Pseudo-classes
 * Pseudo-elements
 * CSS Variables
-* Responsive Design
+* Transitions
+* Animations
+
+### Responsive Design
+
+* Responsive Web Design
 * Media Queries
-* Transitions and Animations
+* Flexible Layouts
 
 ## 🧠 Practice
 
-The practice in this section focuses on applying CSS concepts to create clean, structured, responsive, and user-friendly web layouts.
+The practice in this section focuses on applying CSS concepts to create structured, responsive, and user-friendly web layouts.
 
 Key areas practiced:
 
@@ -38,15 +50,14 @@ Key areas practiced:
 * Using CSS Grid for structured layouts
 * Applying positioning techniques
 * Working with typography and visual hierarchy
-* Creating responsive designs with media queries
+* Creating responsive layouts using media queries
 * Using pseudo-classes and pseudo-elements
-* Adding transitions and animations
-* Recreating common web layouts
+* Applying transitions and animations
+* Recreating web layouts through practical exercises
 
 ## 🛠️ Skills Practiced
 
-**CSS:**
-`CSS3` · `Flexbox` · `CSS Grid` · `Responsive Design` · `Media Queries` · `CSS Variables` · `Transitions` · `Animations`
+**CSS:** `CSS3` · `Selectors` · `Box Model` · `Flexbox` · `CSS Grid` · `Responsive Design` · `Media Queries` · `CSS Variables` · `Transitions` · `Animations`
 
 ## 📂 Repository Structure
 
@@ -57,15 +68,18 @@ CSS/
 └── ...
 ```
 
+> More CSS exercises and practical work will be added as I continue progressing through the training.
+
 ## 🎯 Learning Goals
 
 * Build a strong foundation in CSS
 * Create clean and well-structured layouts
-* Master Flexbox and CSS Grid
-* Build responsive web pages
+* Understand and apply the CSS Box Model
+* Build layouts using Flexbox and CSS Grid
+* Create responsive web pages
 * Improve typography and visual hierarchy
 * Understand modern CSS layout techniques
-* Apply CSS through practical exercises
+* Apply CSS concepts through practical exercises
 
 ---
 

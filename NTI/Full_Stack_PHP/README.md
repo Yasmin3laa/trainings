@@ -16,7 +16,7 @@ This section documents my learning journey throughout the **NTI Full Stack Web D
 
 ### 01. HTML & CSS
 
-Web development fundamentals, semantic HTML, CSS styling, page layouts, and responsive web design.
+Web development fundamentals, semantic HTML, CSS styling, responsive design, and frontend development.
 
 ---
 
@@ -40,19 +40,19 @@ Object-Oriented Programming concepts using PHP, including classes, objects, enca
 
 ### 05. MySQL
 
-Relational databases, SQL queries, database design, relationships, constraints, CRUD operations, and database management using MySQL.
+Relational databases, SQL, database design, relationships, constraints, CRUD operations, and database management using MySQL.
 
 ---
 
 ### 06. Backend Development
 
-Server-side web development using PHP, database integration, form handling, authentication concepts, and building dynamic web applications.
+Server-side web development using PHP, database integration, form handling, authentication concepts, and dynamic web applications.
 
 ---
 
 ## 🤝 Additional Topics
 
-Alongside the main technical modules, the training also focuses on:
+Alongside the main technical modules, the training also covers:
 
 * **Git & GitHub** — Version control and collaborative development workflows.
 * **Problem Solving** — Applying logical thinking and programming concepts to solve technical problems.
@@ -66,11 +66,9 @@ Alongside the main technical modules, the training also focuses on:
 Practical projects developed during the training program.
 
 * 🌐 **Web Development Projects**
-* 🗄️ **Database Projects**
 * 🐘 **PHP Projects**
+* 🗄️ **Database Projects**
 * 💻 **Full Stack Web Applications**
-
-📂 **View Projects**
 
 ---
 
@@ -78,16 +76,18 @@ Practical projects developed during the training program.
 
 * Strengthen web development fundamentals
 * Build responsive and modern web interfaces
+* Develop frontend development skills
 * Develop strong JavaScript and jQuery skills
 * Learn server-side development using PHP
 * Understand Object-Oriented Programming
 * Work with relational databases and SQL
-* Develop database-driven web applications
+* Build database-driven web applications
 * Integrate PHP applications with MySQL
 * Build complete Full Stack web applications
 * Practice problem-solving and programming concepts
 * Gain practical experience through assignments and projects
 * Use Git and GitHub for version control
+* Develop professional and freelancing skills
 
 ---
 
@@ -112,4 +112,3 @@ NTI/
 
 This section is part of my broader **Training & Learning** repository, where I organize my technical training, coursework, practical exercises, assignments, projects, problem-solving practice, and learning progress.
 
-⬅️ **Back to Training Repository**
