@@ -1,53 +1,78 @@
-# HTML
+# 🌐 HTML
 
-This section contains my HTML practice, exercises, and mini projects as part of my Web Development training.
+This section contains my HTML practice, exercises, and mini projects completed as part of the **ITI Web Development using Python & Generative AI** training.
 
 ## 📚 Topics Covered
 
-* HTML5 Document Structure
+* HTML5 Fundamentals
+* Document Structure
 * Semantic HTML
 * Headings and Paragraphs
-* Images
-* Links
+* Links and Navigation
+* Images and Image Attributes
 * Lists
 * Tables
-* Forms
+* Forms and Input Fields
 * HTML Attributes
 * Sections and Main Content
-* Basic Page Layout
+* Page Structure and Layout
+
+## 🧠 Practice
+
+The practice in this section focuses on building a strong foundation in HTML and creating well-structured web pages.
+
+Key areas practiced:
+
+* Writing clean and structured HTML
+* Using semantic HTML elements
+* Organizing content into meaningful sections
+* Working with links and images
+* Creating lists and tables
+* Building basic forms
+* Applying HTML attributes
+* Structuring static web pages
 
 ## 🚀 Mini Projects
 
-### Black Goose Bistro
+### 🍽️ Black Goose Bistro
 
-A simple restaurant webpage built using HTML.
+A simple restaurant webpage built using **HTML5** as a practical exercise in structuring and organizing web content.
 
-**Features:**
+#### ✨ Features
 
-* Restaurant logo/image
-* Main heading
+* Restaurant name and branding
 * Restaurant description
 * Catering section
-* Location and opening hours
-* Basic page structure using semantic HTML elements
+* Location information
+* Opening hours
+* Images
+* Structured page sections
+* Basic styling using inline CSS
 
-**Technologies:**
+#### 🛠️ Technologies
 
 * HTML5
-* Inline CSS
+* CSS
 
-**Project Structure:**
+#### 📂 Project Structure
 
 ```text
 Black_Goose_Bistro/
+│
 ├── index.html
 └── Goose Photo.jpeg
 ```
 
 ## 🎯 Learning Goals
 
-* Practice writing valid HTML5 structure
-* Understand semantic HTML elements
-* Work with images and attributes
-* Structure content into meaningful sections
-* Build simple static web pages
+* Build well-structured HTML5 pages
+* Understand and apply semantic HTML
+* Work with images, links, lists, and tables
+* Create and structure HTML forms
+* Organize web content into meaningful sections
+* Practice building static web pages
+* Prepare for modern frontend development
+
+---
+
+**Part of my Web Development learning journey at ITI.**
