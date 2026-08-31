@@ -1,4 +1,4 @@
-## Constraints and Referential Integrity
+# Constraints and Referential Integrity
 
 This lab focuses on PostgreSQL constraints, default values, foreign keys, and referential integrity.
 
