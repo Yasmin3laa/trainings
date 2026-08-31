@@ -1,100 +1,154 @@
-# JavaScript Assignments
+# JavaScript
 
-This folder contains JavaScript exercises and practical assignments completed during my Web Development training at ITI.
+This section contains my JavaScript practice, assignments, problem-solving exercises, and projects as part of my Web Development training.
 
-## 📂 Assignments
+## 📚 Topics Covered
 
-### 01 - JavaScript Basics
-
-Introduces the fundamental concepts of JavaScript programming.
-
-Topics include:
-
+* JavaScript Fundamentals
 * Variables and Data Types
-* Variable Declarations
-* Type Checking
+* `var`, `let`, and `const`
 * Operators
+* Type Checking using `typeof`
 * Conditional Statements
 * Loops
-* Basic Mathematical Operations
-* Multiplication Tables
-
-**File:** `01_JavaScript_Basics.js`
-
-
----
-
-### 02 - JavaScript Problem Solving
-
-Contains practical problem-solving exercises using JavaScript, including:
-
-* User Input
-* Mathematical Operations
-* Conditional Logic
-* Basic Problem Solving
-
-**File:** `02_JavaScript_Problem_Solving.js`
-
----
-
-### 03 - JavaScript Objects
-
-Practice working with JavaScript objects and applying functions to process object data.
-
-Topics include:
-
-* Object Creation
-* Object Properties
-* Accessing Object Data
-* Functions with Objects
-* Grade Calculation
-
-**File:** `03_JavaScript_Objects.js`
-
----
-
-### 04 - JavaScript Functions and Methods
-
-Practical exercises focused on creating and using JavaScript functions and built-in methods.
-
-Topics include:
-
-* Function Declaration
-* Function Parameters
-* Return Values
-* Reusable Functions
-* JavaScript Methods
-* Practical Problem Solving
-
-**File:** `04_JavaScript_Functions_and_Methods.js`
-
----
-
-### 05 - JavaScript Array Operations
-
-Exercises focused on working with arrays and performing common array operations.
-
-Topics include:
-
-* Creating Arrays
-* Accessing Array Elements
-* Adding and Removing Elements
-* Searching Arrays
-* Array Iteration
+* Functions
+* Arrays
+* Objects
+* Strings and String Methods
 * Array Methods
-* Practical Array Operations
+* Date and Math Objects
+* DOM Manipulation
+* Events and Event Handling
+* Form Validation
+* ES6+ Features
+* Error Handling
+* JSON
+* Local Storage
+* Basic Asynchronous JavaScript
 
-**File:** `05_JavaScript_Array_Operations.js`
+## 🧠 Practice
+
+The assignments in this section focus on strengthening JavaScript fundamentals and applying programming concepts through practical exercises.
+
+I practice:
+
+* Working with variables and different data types
+* Using conditions and loops
+* Creating reusable functions
+* Solving programming problems
+* Working with arrays and array methods
+* Manipulating objects
+* Handling user input with `prompt()`
+* Validating user input
+* Using built-in JavaScript methods
+* Working with `Date` and `Math`
+* Using `switch` statements
+* Applying ES6+ features
+* Building reusable and structured JavaScript solutions
+
+## 📝 Assignments
+
+### 01. JavaScript Basics
+
+Covers fundamental JavaScript concepts and basic programming exercises.
+
+**Topics:**
+
+* Variable declarations
+* Data types
+* `typeof`
+* Conditional statements
+* Loops
+* Odd and even numbers
+* Positive, negative, and zero
+* Multiplication tables
+* Day of the week
+* Weekend and weekday validation
+
+### 02. JavaScript Problem Solving
+
+Contains problem-solving tasks using user input and JavaScript logic.
+
+**Tasks include:**
+
+* Displaying user input using HTML heading elements
+* Calculating the sum of user-entered numbers
+* Validating numeric input
+* Processing arrays of user-entered values
+* Performing mathematical operations
+
+### 03. JavaScript Objects
+
+Practices working with JavaScript objects and object methods.
+
+**Topics:**
+
+* Creating objects
+* Nested objects and arrays
+* Object methods
+* `this` keyword
+* Calculating total grades
+* Calculating average grades
+* Object cloning using the spread operator
+
+### 04. JavaScript Functions and Methods
+
+Practices creating reusable functions and using built-in JavaScript methods.
+
+**Topics:**
+
+* Function expressions
+* Random values
+* String manipulation
+* `split()`
+* `toUpperCase()`
+* `toLowerCase()`
+* `slice()`
+* Finding the longest word
+* Sorting strings
+* Working with `Date`
+* Working with `Math`
+* Calculating circle area
+
+### 05. JavaScript Array Operations
+
+A practical array-processing exercise that allows the user to perform different operations on an array.
+
+**Operations include:**
+
+* Displaying the original array
+* Sorting in ascending order
+* Sorting in descending order
+* Reversing the array
+* Filtering even numbers
+* Finding numbers divisible by a user-entered value
+* Applying a 30% discount
+* Joining array elements using `***`
+
+**JavaScript concepts used:**
+
+* Arrays
+* `filter()`
+* `map()`
+* `join()`
+* `toSorted()`
+* `toReversed()`
+* `switch`
+* Functions
+* Loops
+* User input validation
 
 ## 🎯 Learning Goals
 
-* Strengthen JavaScript fundamentals
-* Improve problem-solving skills
-* Practice writing reusable functions
-* Understand objects and arrays
-* Apply JavaScript methods to practical problems
-* Build a strong foundation for frontend development
+* Strengthen my JavaScript fundamentals
+* Improve problem-solving and logical thinking
+* Write clean and reusable JavaScript functions
+* Become comfortable working with arrays and objects
+* Practice handling user input and validation
+* Understand modern JavaScript features and methods
+* Prepare for DOM manipulation and interactive web development
+* Build a strong foundation for modern frontend development
 
 ---
 
-**Part of my Web Development learning journey at ITI.**
+**Part of my Web Development learning journey.**
