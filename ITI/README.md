@@ -2,11 +2,15 @@
 
 ## Web Development using Python & Generative AI
 
-This section documents my learning journey, training materials, practical exercises, assignments, and projects completed during the **ITI Web Development using Python & Generative AI** program.
+This section documents my learning journey throughout the **ITI Web Development using Python & Generative AI** training program, including technical modules, practical exercises, assignments, projects, and professional skills.
 
-## 📚 Track
+---
+
+## 📚 Training Track
 
 **Program:** Web Development using Python & Generative AI
+
+---
 
 ## 🛠️ Modules
 
@@ -14,7 +18,7 @@ This section documents my learning journey, training materials, practical exerci
 
 Python fundamentals, programming concepts, problem solving, and practical exercises.
 
-📂 [View Python](./01_Python)
+📂 **[View Python](./01_Web_Development_Python%26Gen_AI/01_Python)**
 
 ---
 
@@ -22,79 +26,105 @@ Python fundamentals, programming concepts, problem solving, and practical exerci
 
 Web fundamentals, semantic HTML, CSS, responsive design, and frontend development.
 
-📂 [View HTML & CSS](./02_HTML_CSS)
+📂 **[View HTML & CSS](./01_Web_Development_Python%26Gen_AI/02_HTML_CSS)**
 
 ---
 
-### Generative AI & Prompt Engineering
+### 03. Generative AI & Prompt Engineering
 
-Generative AI concepts and practical prompt engineering techniques.
-
----
-
-### 03. JavaScript
-
-JavaScript fundamentals and programming concepts for web development.
-
-📂 [View JavaScript](./03_JavaScript)
+Introduction to Generative AI, prompt engineering concepts, and practical AI-assisted workflows.
 
 ---
 
-### Vibe Coding
+### 04. JavaScript
 
-AI-assisted development and modern coding workflows.
+JavaScript fundamentals, programming concepts, and client-side web development.
 
----
-
-### 04. PostgreSQL Database Fundamentals
-
-Relational databases, SQL, PostgreSQL, and database fundamentals.
-
-📂 [View PostgreSQL](./04_PostgreSQL)
+📂 **[View JavaScript](./01_Web_Development_Python%26Gen_AI/03_JavaScript)**
 
 ---
 
-### 05. Django
+### 05. Vibe Coding
 
-Backend web development using Django and Python.
-
-📂 [View Django](./05_Django)
+AI-assisted development, modern coding workflows, and using AI tools to support software development.
 
 ---
 
-### Freelancing
+### 06. PostgreSQL Database Fundamentals
 
-Freelancing fundamentals, professional skills, and working with clients.
+Relational databases, SQL, PostgreSQL, database design, and database fundamentals.
+
+📂 **[View PostgreSQL](./01_Web_Development_Python%26Gen_AI/04_PostgreSQL)**
+
+---
+
+### 07. Django
+
+Backend web development using Python and Django, including building web applications and working with databases.
+
+📂 **[View Django](./01_Web_Development_Python%26Gen_AI/05_Django)**
+
+---
+
+### 08. Freelancing
+
+Freelancing fundamentals, professional skills, client communication, and working in the freelance market.
 
 ---
 
 ## 🚀 Projects
 
-Practical projects completed during the training program.
+Practical projects developed during the training program.
 
 * 🍎 **Fruits Shop**
 * ✅ **To Do List**
 * 🎓 **Students Management System**
 
-📂 [View Projects](./Projects)
+📂 **[View Projects](./01_Web_Development_Python%26Gen_AI/Projects)**
 
 ---
 
 ## 🎯 Learning Goals
 
-* Strengthen Python programming skills
-* Build modern web applications
-* Develop frontend and backend skills
+* Strengthen Python programming and problem-solving skills
+* Build responsive and modern web interfaces
+* Develop frontend and backend development skills
 * Work with relational databases and SQL
-* Build Django applications
+* Build web applications using Django
 * Understand Generative AI and Prompt Engineering
 * Explore AI-assisted development workflows
+* Gain practical experience through projects
 * Develop professional and freelancing skills
+
+---
+
+## 📂 Repository Structure
+
+```text
+ITI/
+│
+├── README.md
+│
+└── 01_Web_Development_Python&Gen_AI/
+    │
+    ├── 01_Python/
+    ├── 02_HTML_CSS/
+    ├── 03_JavaScript/
+    ├── 04_PostgreSQL/
+    ├── 05_Django/
+    │
+    └── Projects/
+        ├── Fruits_Shop/
+        ├── To_Do_List/
+        └── Students_Management_System/
+```
+
+> The repository structure may evolve as I continue adding training materials, exercises, and projects.
 
 ---
 
 ## 📌 About This Section
 
-This section is part of my broader **Training & Learning** repository, where I organize my technical training, coursework, practical work, and learning progress.
+This section is part of my broader **Training & Learning** repository, where I organize my technical training, coursework, practical work, problem-solving practice, and learning progress.
 
-⬅️ [Back to Training Repository](../)
+⬅️ **[Back to Training Repository](../)**
