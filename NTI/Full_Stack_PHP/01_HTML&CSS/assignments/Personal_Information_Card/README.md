@@ -1,25 +1,25 @@
 # 🪪 Personal Information Card
 
-A simple and clean **Personal Information Card** built using **HTML5 and CSS3**.
+A simple and clean **Personal Information Card** built using **HTML5 and CSS3** as part of my **NTI Full Stack PHP** training.
 
-This task focuses on practicing fundamental HTML structure, tables, images, CSS styling, layout, colors, typography, and external icon libraries.
+## 📖 About the Project
 
----
+This project is a simple personal information card designed to practice fundamental **HTML and CSS** concepts.
 
-## 📌 Task Overview
+The card displays basic personal information in a clean and organized layout, along with a profile image and icons for each information field.
 
-The goal of this task is to create a personal information card that displays basic information in a clean and organized layout.
+## ✨ Features
 
-The card includes:
-
-* 👤 Name
-* 🎂 Age
-* 🎓 Faculty
-* ⭐ Hobby
-* 🖼️ Profile image
-* 🔹 Icons for each information field
-
----
+* Personal information display
+* Profile image
+* Styled information table
+* Font Awesome icons
+* Centered card layout
+* Gradient label cells
+* Rounded corners
+* Box shadow
+* Responsive viewport configuration
+* Clean and organized UI
 
 ## 🛠️ Technologies Used
 
@@ -27,53 +27,33 @@ The card includes:
 * **CSS3**
 * **Font Awesome 6.4.0**
 
----
-
-## ✨ Features
-
-* Clean and simple user interface
-* Centered responsive card layout
-* Circular profile image
-* Styled information table
-* Gradient label cells
-* Font Awesome icons
-* Rounded corners
-* Box shadow for visual depth
-* Consistent typography and spacing
-* Responsive viewport configuration
-
----
-
 ## 📂 Project Structure
 
 ```text
-Personal-Information/
+Personal_Information_Card/
 │
 ├── index.html
 ├── style.css
-└── photo.jpg
+├── photo.jpg
+├── screenshots/
+│   └── Personal_Information_Card.png
+└── README.md
 ```
 
----
+## 🧩 HTML Concepts Practiced
 
-## 🧩 HTML Structure
+Through this project, I practiced:
 
-The HTML page is structured using semantic and common HTML elements:
-
-* `<!DOCTYPE html>` for HTML5
-* `<head>` for metadata, title, stylesheet, and Font Awesome
-* `<body>` for the page content
-* `<div>` for the main card container
-* `<h2>` for the card title
-* `<img>` for the profile image
-* `<table>` for displaying personal information
-* `<i>` elements for Font Awesome icons
-
----
+* Creating a complete HTML5 document
+* Using headings and paragraphs
+* Working with images
+* Creating and styling HTML tables
+* Using `<div>` containers
+* Adding external resources
+* Using Font Awesome icons
+* Organizing webpage content
 
 ## 🎨 CSS Concepts Practiced
-
-This task demonstrates several important CSS concepts:
 
 ### Layout
 
@@ -97,6 +77,7 @@ This task demonstrates several important CSS concepts:
 * `border`
 * `border-radius`
 * `box-shadow`
+* `linear-gradient()`
 
 ### Typography
 
@@ -105,45 +86,33 @@ This task demonstrates several important CSS concepts:
 * `font-weight`
 * `text-align`
 
-### Advanced Styling
+### Other Concepts
 
-* `linear-gradient()`
-* `object-fit`
 * CSS selectors
-* pseudo-class `:last-child`
+* `object-fit`
+* Pseudo-classes such as `:last-child`
 
----
+## 📸 Project Preview
 
-## 🔗 External Resource
-
-This project uses **Font Awesome** to display icons.
-
-```html
-<link
-  rel="stylesheet"
-  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
-/>
-```
-
----
+![Personal Information Card Preview](screenshots/My_Personal_Information.png)
 
 ## 📚 What I Learned
 
-Through this task, I practiced:
+Through this assignment, I practiced:
 
-* Creating a complete HTML5 document
-* Linking an external CSS file
-* Working with images in HTML
-* Creating and styling HTML tables
+* Building a structured HTML page
+* Linking an external CSS stylesheet
+* Working with images and tables
+* Creating a centered layout using Flexbox
 * Using external icon libraries
-* Building a centered card layout with Flexbox
-* Applying gradients and shadows
-* Styling elements using classes
-* Managing spacing and the CSS box model
-* Creating a clean and organized UI
+* Applying gradients, shadows, and rounded corners
+* Managing spacing using the CSS box model
+* Creating a clean and organized user interface
+
+## 🎯 Training
+
+This project was completed as part of my **NTI Full Stack PHP** training, within the **HTML & CSS** module.
 
 ---
 
-## 🎯 Purpose
-
-This task is part of my **Full Stack training** and was created to strengthen my practical understanding of **HTML and CSS fundamentals** through a simple UI implementation.
+**Part of my Full Stack Web Development learning journey at NTI.**
