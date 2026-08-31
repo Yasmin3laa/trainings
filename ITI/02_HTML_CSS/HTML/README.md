@@ -61,6 +61,7 @@ Black_Goose_Bistro/
 │
 ├── index.html
 └── Goose Photo.jpeg
+└── README.md
 ```
 
 ## 🎯 Learning Goals
