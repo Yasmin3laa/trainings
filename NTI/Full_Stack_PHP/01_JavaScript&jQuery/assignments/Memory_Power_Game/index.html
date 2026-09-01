@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Memory Power Game</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="script.js"></script>
+  </head>
+  <body>
+    <h1>🧠 Memory Power Game</h1>
+
+    <div class="stats-container">
+      <div class="stat">Time: <span id="timer">0</span> seconds</div>
+      <div class="stat">Moves: <span id="moves">0</span></div>
+    </div>
+
+    <div class="memory-game" id="game-board"></div>
+
+    <button class="restart-btn" id="restart-btn">Restart Game 🔄</button>
+
+    <div class="win-message" id="win-screen">
+      <h2>🎉 Congratulations! You won the game!</h2>
+      <p id="final-stats"></p>
+      <button class="restart-btn" onclick="initGame()">Play Again 🚀</button>
+    </div>
+  </body>
+</html>
