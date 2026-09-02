@@ -1,19 +1,67 @@
-# 🎨 03 — Bootstrap
+# 💻 Full Stack PHP Training
 
-This folder contains my **Bootstrap training and assignments** as part of the **NTI Full Stack PHP Training**.
+This repository contains my work and assignments throughout the **Full Stack PHP Training** at the **National Telecommunication Institute (NTI)**.
 
-The main focus of this section is practicing **Bootstrap 5**, responsive layouts, reusable UI components, and combining Bootstrap with custom CSS.
+The training focuses on building a strong foundation in web development, starting with front-end technologies and progressing toward full-stack development using PHP.
 
 ---
 
-## 📚 Topics Covered
+## 📚 Training Modules
 
-Throughout this training, I practiced working with different Bootstrap features, including:
+### 01 — HTML & CSS
+
+Learning and practicing the fundamentals of building and styling web pages.
+
+**Topics include:**
+
+* HTML5
+* Semantic HTML
+* Forms
+* Tables
+* CSS3
+* Selectors
+* Box Model
+* Flexbox
+* Layouts
+* Responsive Web Design
+
+📁 [View HTML & CSS](./01_HTML%26CSS)
+
+---
+
+### 02 — JavaScript & jQuery
+
+Learning how to make web pages interactive and dynamic using JavaScript and jQuery.
+
+**Topics include:**
+
+* JavaScript Fundamentals
+* Variables & Data Types
+* Functions
+* Arrays & Objects
+* DOM Manipulation
+* Events
+* Conditions & Loops
+* JavaScript Validation
+* jQuery
+* jQuery Selectors
+* jQuery Events
+* jQuery Effects
+
+📁 [View JavaScript & jQuery](./02_JavaScript%26jQuery)
+
+---
+
+### 03 — Bootstrap
+
+Learning how to build responsive and modern user interfaces using Bootstrap.
+
+**Topics include:**
 
 * Bootstrap Grid System
-* Responsive Layouts
-* Containers and Rows
-* Columns and Breakpoints
+* Containers
+* Rows & Columns
+* Responsive Breakpoints
 * Navbar
 * Carousel
 * Cards
@@ -22,160 +70,84 @@ Throughout this training, I practiced working with different Bootstrap features,
 * Modals
 * Forms
 * Utility Classes
-* Spacing Utilities
-* Typography
 * Responsive Components
 
----
-
-## 🛠️ Technologies Used
-
-* HTML5
-* CSS3
-* Bootstrap 5
-* Responsive Web Design
+📁 [View Bootstrap](./03_Bootstrap)
 
 ---
 
-## 📂 Folder Structure
+# 🛍️ Bootstrap Assignment — Fashion Store
+
+As part of the Bootstrap training, I created **LUMÉ**, a modern fashion store website built with HTML, CSS, and Bootstrap 5.
+
+The project demonstrates the practical use of Bootstrap components to create a responsive e-commerce-style interface.
+
+### ✨ Features
+
+* Responsive Navbar
+* Hero Carousel
+* Featured Products
+* Product Cards
+* Product Categories
+* Product Badges
+* Product Details Modal
+* Why Shop With LUMÉ section
+* Newsletter Form
+* Responsive Footer
+
+📁 [View Fashion Store](./03_Bootstrap/assignments/Fashon_Store)
+
+---
+
+# 🛠️ Technologies
+
+The technologies covered so far include:
+
+| Module              | Technologies             |
+| ------------------- | ------------------------ |
+| HTML & CSS          | HTML5, CSS3              |
+| JavaScript & jQuery | JavaScript, jQuery       |
+| Bootstrap           | Bootstrap 5, HTML5, CSS3 |
+
+---
+
+# 🎯 Training Goals
+
+The main goals of this training are to:
+
+* Build a strong foundation in web development
+* Create responsive and user-friendly interfaces
+* Understand front-end development concepts
+* Build interactive web pages
+* Practice modern web development tools and frameworks
+* Progress toward full-stack web development
+* Apply learned concepts through practical assignments
+
+---
+
+# 📂 Repository Structure
 
 ```text
-03_Bootstrap/
+Full_Stack_PHP/
 │
-└── assignments/
-    │
-    └── Fashon_Store/
-        │
-        ├── assets/
-        ├── screenshots/
-        ├── index.html
-        └── README.md
+├── 01_HTML&CSS/
+│   └── ...
+│
+├── 02_JavaScript&jQuery/
+│   └── ...
+│
+├── 03_Bootstrap/
+│   ├── assignments/
+│   │   └── Fashon_Store/
+│   │       ├── assets/
+│   │       ├── screenshots/
+│   │       ├── index.html
+│   │       └── README.md
+│   │
+│   └── ...
+│
+└── README.md
 ```
-
----
-
-# 🛍️ Assignment — Fashion Store
-
-As part of the Bootstrap practice, I created a responsive fashion store website called **LUMÉ**.
-
-The project focuses on building a modern e-commerce-style interface using Bootstrap components and responsive layouts.
-
-## ✨ Features
-
-* Responsive navigation bar
-* Hero carousel
-* Featured products section
-* Product cards
-* Product categories
-* Product badges
-* Product details modal
-* Why Shop With Us section
-* Newsletter subscription form
-* Responsive footer
-* Mobile-friendly layout
-
----
-
-## 🧩 Bootstrap Components Used
-
-The Fashion Store project demonstrates the use of several Bootstrap components:
-
-### Navbar
-
-A responsive navigation bar with:
-
-* Brand logo
-* Navigation links
-* Mobile menu
-* Wishlist button
-* Cart button
-
-### Carousel
-
-A hero carousel used to showcase:
-
-* New collections
-* Fashion campaigns
-* Call-to-action buttons
-
-### Cards
-
-Product cards are used to display:
-
-* Product images
-* Product names
-* Categories
-* Prices
-* Badges
-* Action buttons
-
-### Modal
-
-A Bootstrap modal is used to display additional product information such as:
-
-* Available sizes
-* Available colors
-* Price
-* Add to Cart button
-
-### Grid System
-
-Bootstrap's responsive grid system is used to organize:
-
-* Products
-* Categories
-* Features
-* Footer content
-
----
-
-# 📸 Screenshots
-
-## 🏠 Home Page
-
-![Home Page](./assignments/Fashon_Store/screenshots/fashon_home.png)
-
-## 🛍️ Products
-
-![Products Section](./assignments/Fashon_Store/screenshots/products.png)
-
-## 👗 Categories
-
-![Categories Section](./assignments/Fashon_Store/screenshots/categories.png)
-
-## 🪟 Product Modal
-
-![Product Modal](./assignments/Fashon_Store/screenshots/product_modal.png)
-
-## 📱 About & Contact
-
-![About & Contact](./assignments/Fashon_Store/screenshots/about&contactpng.png)
-
----
-
-# 🎯 Learning Objectives
-
-The main goal of this section was to gain practical experience with **Bootstrap 5** and learn how to build responsive and structured web interfaces.
-
-Through the Fashion Store assignment, I practiced:
-
-* Building responsive websites
-* Using Bootstrap's grid system
-* Creating reusable UI components
-* Working with Bootstrap utilities
-* Creating responsive navigation
-* Building interactive components
-* Combining Bootstrap with custom CSS
-* Organizing a web project
-* Creating a clean and modern user interface
-
----
-
-# 📁 Assignment
-
-You can view the complete Fashion Store project here:
-
-**[Fashon_Store](./assignments/Fashon_Store/)**
 
 ---
 
@@ -183,4 +155,11 @@ You can view the complete Fashion Store project here:
 
 **Yasmine 3laa**
 
-**NTI — Full Stack PHP Training**
+**National Telecommunication Institute (NTI)**
+**Full Stack PHP Training**
+
+---
+
+## 📄 Note
+
+This repository is created for **educational purposes** and contains my training exercises, assignments, and projects completed during the NTI Full Stack PHP Training.
