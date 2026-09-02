@@ -129,6 +129,30 @@ Bootstrap's responsive grid system is used to organize:
 
 ---
 
+# 📸 Screenshots
+
+## 🏠 Home Page
+
+![Home Page](./assignments/Fashon_Store/screenshots/fashon_home.png)
+
+## 🛍️ Products
+
+![Products Section](./assignments/Fashon_Store/screenshots/products.png)
+
+## 👗 Categories
+
+![Categories Section](./assignments/Fashon_Store/screenshots/categories.png)
+
+## 🪟 Product Modal
+
+![Product Modal](./assignments/Fashon_Store/screenshots/product_modal.png)
+
+## 📱 About & Contact
+
+![About & Contact](./assignments/Fashon_Store/screenshots/about&contactpng.png)
+
+---
+
 # 🎯 Learning Objectives
 
 The main goal of this section was to gain practical experience with **Bootstrap 5** and learn how to build responsive and structured web interfaces.
