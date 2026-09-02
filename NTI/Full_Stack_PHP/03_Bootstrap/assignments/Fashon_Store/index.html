@@ -1,0 +1,509 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>LUMÉ | Modern Fashion Store</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+  </head>
+
+  <body>
+    <!-- ================= NAVBAR ================= -->
+    <nav class="navbar navbar-expand-lg navbar-dark sticky-top">
+      <div class="container">
+        <a class="navbar-brand fw-bold fs-4" href="#"> LUMÉ </a>
+
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav mx-auto">
+            <li class="nav-item">
+              <a class="nav-link active" href="#"> Home </a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="#shop"> Shop </a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="#categories"> Categories </a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="#about"> About </a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="#contact"> Contact </a>
+            </li>
+          </ul>
+
+          <div class="d-flex gap-2">
+            <button class="btn btn-outline-light">♡</button>
+            <button class="btn btn-light">🛒 Cart</button>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <!-- ================= HERO CAROUSEL ================= -->
+    <div id="mainSlider" class="carousel slide" data-bs-ride="carousel">
+      <!-- Indicators -->
+      <div class="carousel-indicators">
+        <button
+          type="button"
+          data-bs-target="#mainSlider"
+          data-bs-slide-to="0"
+          class="active"
+          aria-current="true"
+        ></button>
+
+        <button
+          type="button"
+          data-bs-target="#mainSlider"
+          data-bs-slide-to="1"
+        ></button>
+
+        <button
+          type="button"
+          data-bs-target="#mainSlider"
+          data-bs-slide-to="2"
+        ></button>
+      </div>
+
+      <!-- Slides -->
+      <div class="carousel-inner">
+        <!-- Slide 1 -->
+        <div class="carousel-item active">
+          <img
+            src="./assets/images/new_collection.png"
+            class="d-block w-100 hero-img"
+            alt="New Fashion Collection"
+          />
+
+          <div class="carousel-caption">
+            <span class="badge bg-light text-dark mb-3"> NEW COLLECTION </span>
+            <h1>New Season. New Style.</h1>
+            <p class="lead">
+              Discover our latest collection designed for modern everyday
+              fashion.
+            </p>
+            <a href="#shop" class="btn btn-light btn-lg"> Shop Collection </a>
+          </div>
+        </div>
+
+        <!-- Slide 2 -->
+        <div class="carousel-item">
+          <img
+            src="./assets/images/women_collection.png"
+            class="d-block w-100 hero-img"
+            alt="Women's Collection"
+          />
+
+          <div class="carousel-caption">
+            <h1>Effortless Elegance</h1>
+            <p class="lead">Timeless pieces made to fit your unique style.</p>
+            <a href="#categories" class="btn btn-light btn-lg">
+              Explore Women
+            </a>
+          </div>
+        </div>
+
+        <!-- Slide 3 -->
+        <div class="carousel-item">
+          <img
+            src="./assets/images/men_collection.png"
+            class="d-block w-100 hero-img"
+            alt="Men's Collection"
+          />
+
+          <div class="carousel-caption">
+            <h1>Everyday Essentials</h1>
+            <p class="lead">
+              Clean, comfortable and modern pieces for every occasion.
+            </p>
+            <a href="#shop" class="btn btn-light btn-lg"> Shop Now </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Controls -->
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#mainSlider"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon"></span>
+        <span class="visually-hidden"> Previous </span>
+      </button>
+
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#mainSlider"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon"></span>
+        <span class="visually-hidden"> Next </span>
+      </button>
+    </div>
+
+    <!-- ================= SHOP SECTION ================= -->
+    <section id="shop" class="container py-5">
+      <div class="text-center mb-5">
+        <span class="badge bg-dark mb-2"> OUR COLLECTION </span>
+        <h2 class="fw-bold">Featured Products</h2>
+        <p class="text-muted">Discover our most-loved pieces.</p>
+      </div>
+
+      <div class="row g-4">
+        <!-- Product 1 -->
+        <div class="col-md-6 col-lg-3">
+          <div class="card product-card shadow-sm h-100">
+            <img
+              src="./assets/images/classic_blazer.png"
+              class="card-img-top"
+              alt="Classic Blazer"
+            />
+
+            <div class="card-body">
+              <span class="badge bg-danger mb-2"> SALE </span>
+              <h5 class="card-title">Classic Blazer</h5>
+              <p class="text-muted">Women's Collection</p>
+              <span class="product-price"> $59.99 </span>
+              <span class="old-price ms-2"> $79.99 </span>
+
+              <button
+                class="btn btn-dark w-100 mt-3"
+                data-bs-toggle="modal"
+                data-bs-target="#productModal"
+              >
+                View Product
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Product 2 -->
+        <div class="col-md-6 col-lg-3">
+          <div class="card product-card shadow-sm h-100">
+            <img
+              src="./assets/images/oversize_tshirt.png"
+              class="card-img-top"
+              alt="Oversized T-Shirt"
+            />
+
+            <div class="card-body">
+              <span class="badge bg-success mb-2"> NEW </span>
+              <h5 class="card-title">Oversized T-Shirt</h5>
+              <p class="text-muted">Unisex Collection</p>
+              <span class="product-price"> $29.99 </span>
+
+              <button
+                class="btn btn-dark w-100 mt-3"
+                data-bs-toggle="modal"
+                data-bs-target="#productModal"
+              >
+                View Product
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Product 3 -->
+        <div class="col-md-6 col-lg-3">
+          <div class="card product-card shadow-sm h-100">
+            <img
+              src="./assets/images/denim_jacket.png"
+              class="card-img-top"
+              alt="Denim Jacket"
+            />
+
+            <div class="card-body">
+              <span class="badge bg-secondary mb-2"> BESTSELLER </span>
+              <h5 class="card-title">Denim Jacket</h5>
+              <p class="text-muted">Men's Collection</p>
+              <span class="product-price"> $69.99 </span>
+
+              <button
+                class="btn btn-dark w-100 mt-3"
+                data-bs-toggle="modal"
+                data-bs-target="#productModal"
+              >
+                View Product
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Product 4 -->
+        <div class="col-md-6 col-lg-3">
+          <div class="card product-card shadow-sm h-100">
+            <img
+              src="./assets/images/summer_dress.png"
+              class="card-img-top"
+              alt="Summer Dress"
+            />
+
+            <div class="card-body">
+              <span class="badge bg-success mb-2"> NEW </span>
+              <h5 class="card-title">Summer Dress</h5>
+              <p class="text-muted">Women's Collection</p>
+              <span class="product-price"> $49.99 </span>
+
+              <button
+                class="btn btn-dark w-100 mt-3"
+                data-bs-toggle="modal"
+                data-bs-target="#productModal"
+              >
+                View Product
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= CATEGORIES ================= -->
+    <section id="categories" class="container py-5">
+      <div class="text-center mb-5">
+        <h2 class="fw-bold">Shop By Category</h2>
+        <p class="text-muted">Find your perfect style.</p>
+      </div>
+
+      <div class="row g-4">
+        <div class="col-md-4">
+          <div
+            class="category-card"
+            style="background-image: url(./assets/images/women_category.png)"
+          >
+            <div class="category-overlay">
+              <h3>Women</h3>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div
+            class="category-card"
+            style="background-image: url(./assets/images/men_category.png)"
+          >
+            <div class="category-overlay">
+              <h3>Men</h3>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div
+            class="category-card"
+            style="
+              background-image: url(./assets/images/accessories_category.png);
+            "
+          >
+            <div class="category-overlay">
+              <h3>Accessories</h3>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= WHY US ================= -->
+    <section id="about" class="why-section py-5">
+      <div class="container">
+        <div class="text-center mb-5">
+          <h2 class="fw-bold">Why Shop With LUMÉ?</h2>
+
+          <p class="text-secondary">
+            Fashion made simple, comfortable and accessible.
+          </p>
+        </div>
+
+        <div class="row text-center g-4">
+          <div class="col-md-3">
+            <div class="why-icon mb-3">🚚</div>
+            <h5>Fast Delivery</h5>
+            <p class="text-secondary">
+              Get your order delivered quickly to your doorstep.
+            </p>
+          </div>
+
+          <div class="col-md-3">
+            <div class="why-icon mb-3">🔒</div>
+            <h5>Secure Payment</h5>
+            <p class="text-secondary">
+              Your payment information is always protected.
+            </p>
+          </div>
+
+          <div class="col-md-3">
+            <div class="why-icon mb-3">⭐</div>
+            <h5>Quality Products</h5>
+            <p class="text-secondary">
+              Carefully selected products made for everyday style.
+            </p>
+          </div>
+
+          <div class="col-md-3">
+            <div class="why-icon mb-3">💬</div>
+            <h5>Customer Support</h5>
+            <p class="text-secondary">
+              Our team is ready to help whenever you need us.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= NEWSLETTER ================= -->
+    <section class="newsletter py-5">
+      <div class="container text-center">
+        <h2 class="fw-bold">Stay In Style</h2>
+        <p class="text-muted">
+          Subscribe to our newsletter and get updates about new collections and
+          special offers.
+        </p>
+
+        <form class="row justify-content-center mt-4">
+          <div class="col-md-6">
+            <div class="input-group">
+              <input
+                type="email"
+                class="form-control"
+                placeholder="Enter your email"
+              />
+
+              <button class="btn btn-dark" type="submit">Subscribe</button>
+            </div>
+          </div>
+        </form>
+      </div>
+    </section>
+
+    <!-- ================= PRODUCT MODAL ================= -->
+    <div
+      class="modal fade"
+      id="productModal"
+      tabindex="-1"
+      aria-labelledby="productModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="productModalLabel">Product Details</h5>
+
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+
+          <div class="modal-body">
+            <h4>Fashion Product</h4>
+
+            <p class="text-muted">
+              This is a stylish and comfortable piece from the LUMÉ collection.
+            </p>
+            <hr />
+            <p>
+              <strong>Available Sizes:</strong>
+              S / M / L / XL
+            </p>
+            <p>
+              <strong>Available Colors:</strong>
+              Black / White / Beige
+            </p>
+            <h5>$59.99</h5>
+          </div>
+
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-bs-dismiss="modal"
+            >
+              Close
+            </button>
+
+            <button type="button" class="btn btn-dark">Add to Cart</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ================= FOOTER ================= -->
+    <footer id="contact" class="py-5">
+      <div class="container">
+        <div class="row g-4">
+          <!-- Brand -->
+          <div class="col-md-4">
+            <h4 class="fw-bold">LUMÉ</h4>
+            <p class="text-secondary">
+              Modern fashion for modern lifestyles. Discover pieces that match
+              your style.
+            </p>
+          </div>
+
+          <!-- Quick Links -->
+          <div class="col-md-4">
+            <h5>Quick Links</h5>
+            <ul class="list-unstyled">
+              <li class="mb-2">
+                <a href="#" class="footer-link"> Home </a>
+              </li>
+
+              <li class="mb-2">
+                <a href="#shop" class="footer-link"> Shop </a>
+              </li>
+
+              <li class="mb-2">
+                <a href="#categories" class="footer-link"> Categories </a>
+              </li>
+
+              <li>
+                <a href="#about" class="footer-link"> About Us </a>
+              </li>
+            </ul>
+          </div>
+
+          <!-- Contact -->
+          <div class="col-md-4">
+            <h5>Contact Us</h5>
+            <p class="text-secondary mb-2">📧 hello@lume.com</p>
+            <p class="text-secondary mb-2">📞 +20 100 000 0000</p>
+            <p class="text-secondary">📍 Cairo, Egypt</p>
+          </div>
+        </div>
+
+        <hr class="border-secondary mt-4" />
+
+        <div class="text-center text-secondary">
+          <p class="mb-0">
+            &copy; 2026 LUMÉ Fashion Store. All rights reserved.
+          </p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
